@@ -1,0 +1,1955 @@
+{
+  "Prestamos.Api.dll": {
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "8": 1,
+            "10": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 2,
+            "34": 1,
+            "36": 1,
+            "37": 1,
+            "39": 1,
+            "40": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api\\WeatherForecast.cs": {
+      "Prestamos.Api.WeatherForecast": {
+        "System.DateOnly Prestamos.Api.WeatherForecast::get_Date()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Prestamos.Api.WeatherForecast::get_TemperatureC()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Prestamos.Api.WeatherForecast::get_TemperatureF()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Prestamos.Api.WeatherForecast::get_Summary()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api\\Controllers\\AuthController.cs": {
+      "Prestamos.Api.Controllers.AuthController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult Prestamos.Api.Controllers.AuthController::GenerateToken(System.String,System.String)": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "25": 1,
+            "27": 1,
+            "28": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "48": 1,
+            "49": 2
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 12,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 32,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 228,
+              "EndOffset": 232,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 228,
+              "EndOffset": 289,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 45,
+              "Offset": 328,
+              "EndOffset": 332,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 45,
+              "Offset": 328,
+              "EndOffset": 389,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 422,
+              "EndOffset": 426,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 422,
+              "EndOffset": 483,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 516,
+              "EndOffset": 520,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 516,
+              "EndOffset": 556,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 576,
+              "EndOffset": 580,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 576,
+              "EndOffset": 638,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Prestamos.Api.Controllers.AuthController::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api\\Controllers\\PrestamosController.cs": {
+      "Prestamos.Api.Controllers.PrestamosController": {
+        "System.Void Prestamos.Api.Controllers.PrestamosController::.ctor(Prestamos.Api.Presenters.IRepository)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Controllers.PrestamosController/<>c": {
+        "System.Boolean Prestamos.Api.Controllers.PrestamosController/<>c::<ConsultarBimestresPorUsuario>b__4_1(System.Object)": {
+          "Lines": {
+            "149": 0
+          },
+          "Branches": [
+            {
+              "Line": 149,
+              "Offset": 5,
+              "EndOffset": 9,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 5,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 65,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 65,
+              "EndOffset": 123,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 143,
+              "EndOffset": 147,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 143,
+              "EndOffset": 195,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 215,
+              "EndOffset": 219,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 215,
+              "EndOffset": 266,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass2_0": {
+        "System.Object Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass2_0::<ConsultarBimestres>b__0(Prestamos.Api.Domain.Entities.BimestresEntity)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 12,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 12,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 106,
+              "EndOffset": 110,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 106,
+              "EndOffset": 167,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 200,
+              "EndOffset": 204,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 200,
+              "EndOffset": 261,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 316,
+              "EndOffset": 318,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 329,
+              "EndOffset": 331,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 342,
+              "EndOffset": 344,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 355,
+              "EndOffset": 357,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 368,
+              "EndOffset": 370,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 316,
+              "EndOffset": 385,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 329,
+              "EndOffset": 389,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 342,
+              "EndOffset": 393,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 355,
+              "EndOffset": 397,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 368,
+              "EndOffset": 401,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 426,
+              "EndOffset": 430,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 426,
+              "EndOffset": 487,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass4_0": {
+        "System.Object Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass4_0::<ConsultarBimestresPorUsuario>b__0(Prestamos.Api.Domain.Entities.BimestresEntity)": {
+          "Lines": {
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "137": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "143": 0,
+            "144": 0
+          },
+          "Branches": [
+            {
+              "Line": 129,
+              "Offset": 12,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 12,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 106,
+              "EndOffset": 110,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 106,
+              "EndOffset": 167,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 222,
+              "EndOffset": 224,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 235,
+              "EndOffset": 237,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 248,
+              "EndOffset": 250,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 261,
+              "EndOffset": 263,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 274,
+              "EndOffset": 276,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 222,
+              "EndOffset": 291,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 235,
+              "EndOffset": 295,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 248,
+              "EndOffset": 299,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 261,
+              "EndOffset": 303,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 274,
+              "EndOffset": 307,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 332,
+              "EndOffset": 336,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 332,
+              "EndOffset": 393,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 429,
+              "EndOffset": 433,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 429,
+              "EndOffset": 490,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 512,
+              "EndOffset": 514,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 536,
+              "EndOffset": 538,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 512,
+              "EndOffset": 567,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 536,
+              "EndOffset": 567,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestres>d__2": {
+        "System.Void Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestres>d__2::MoveNext()": {
+          "Lines": {
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "34": 0,
+            "39": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 236,
+              "EndOffset": 240,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 236,
+              "EndOffset": 297,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 334,
+              "EndOffset": 338,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 334,
+              "EndOffset": 395,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 432,
+              "EndOffset": 436,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 432,
+              "EndOffset": 493,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 531,
+              "EndOffset": 535,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 531,
+              "EndOffset": 571,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 591,
+              "EndOffset": 595,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 591,
+              "EndOffset": 653,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestresPorUsuario>d__4": {
+        "System.Void Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestresPorUsuario>d__4::MoveNext()": {
+          "Lines": {
+            "109": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "120": 0,
+            "123": 0,
+            "124": 0,
+            "126": 0,
+            "131": 0,
+            "136": 0,
+            "138": 0,
+            "142": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "150": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0,
+            "158": 0
+          },
+          "Branches": [
+            {
+              "Line": 114,
+              "Offset": 215,
+              "EndOffset": 217,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 233,
+              "EndOffset": 235,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 215,
+              "EndOffset": 265,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 233,
+              "EndOffset": 265,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 270,
+              "EndOffset": 272,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 270,
+              "EndOffset": 305,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 679,
+              "EndOffset": 681,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 679,
+              "EndOffset": 685,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 691,
+              "EndOffset": 693,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 691,
+              "EndOffset": 699,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 147,
+              "Offset": 724,
+              "EndOffset": 726,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 147,
+              "Offset": 724,
+              "EndOffset": 771,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 787,
+              "EndOffset": 791,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 787,
+              "EndOffset": 848,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 154,
+              "Offset": 885,
+              "EndOffset": 889,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 154,
+              "Offset": 885,
+              "EndOffset": 946,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 154,
+              "Offset": 984,
+              "EndOffset": 986,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 154,
+              "Offset": 984,
+              "EndOffset": 990,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 1006,
+              "EndOffset": 1010,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 1006,
+              "EndOffset": 1067,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 1105,
+              "EndOffset": 1109,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 1105,
+              "EndOffset": 1145,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 1165,
+              "EndOffset": 1169,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 1165,
+              "EndOffset": 1227,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Prestamos.Api.Controllers.PrestamosController/<SolicitarPrestamo>d__3": {
+        "System.Void Prestamos.Api.Controllers.PrestamosController/<SolicitarPrestamo>d__3::MoveNext()": {
+          "Lines": {
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "104": 0,
+            "105": 0
+          },
+          "Branches": [
+            {
+              "Line": 54,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 35,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 56,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 137,
+              "EndOffset": 139,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 137,
+              "EndOffset": 148,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 146,
+              "EndOffset": 148,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 159,
+              "EndOffset": 161,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 159,
+              "EndOffset": 170,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 168,
+              "EndOffset": 170,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 181,
+              "EndOffset": 183,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 181,
+              "EndOffset": 192,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 203,
+              "EndOffset": 205,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 203,
+              "EndOffset": 214,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 212,
+              "EndOffset": 214,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 225,
+              "EndOffset": 227,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 225,
+              "EndOffset": 239,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 146,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 168,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 190,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 212,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 247,
+              "EndOffset": 249,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 247,
+              "EndOffset": 282,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 455,
+              "EndOffset": 457,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 473,
+              "EndOffset": 475,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 455,
+              "EndOffset": 505,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 473,
+              "EndOffset": 505,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 510,
+              "EndOffset": 512,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 510,
+              "EndOffset": 544,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 562,
+              "EndOffset": 564,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 562,
+              "EndOffset": 568,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 574,
+              "EndOffset": 576,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 574,
+              "EndOffset": 582,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 604,
+              "EndOffset": 606,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 604,
+              "EndOffset": 613,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 655,
+              "EndOffset": 657,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 655,
+              "EndOffset": 670,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 675,
+              "EndOffset": 677,
+              "Path": 0,
+              "Ordinal": 38,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 675,
+              "EndOffset": 709,
+              "Path": 1,
+              "Ordinal": 39,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 878,
+              "EndOffset": 880,
+              "Path": 0,
+              "Ordinal": 40,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 878,
+              "EndOffset": 883,
+              "Path": 1,
+              "Ordinal": 41,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 895,
+              "EndOffset": 897,
+              "Path": 0,
+              "Ordinal": 42,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 895,
+              "EndOffset": 900,
+              "Path": 1,
+              "Ordinal": 43,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 913,
+              "EndOffset": 915,
+              "Path": 0,
+              "Ordinal": 44,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 913,
+              "EndOffset": 918,
+              "Path": 1,
+              "Ordinal": 45,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 931,
+              "EndOffset": 933,
+              "Path": 0,
+              "Ordinal": 46,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 931,
+              "EndOffset": 936,
+              "Path": 1,
+              "Ordinal": 47,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 949,
+              "EndOffset": 951,
+              "Path": 0,
+              "Ordinal": 48,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 949,
+              "EndOffset": 954,
+              "Path": 1,
+              "Ordinal": 49,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 981,
+              "EndOffset": 983,
+              "Path": 0,
+              "Ordinal": 50,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 992,
+              "EndOffset": 994,
+              "Path": 0,
+              "Ordinal": 52,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 992,
+              "EndOffset": 1001,
+              "Path": 1,
+              "Ordinal": 53,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 981,
+              "EndOffset": 1023,
+              "Path": 1,
+              "Ordinal": 51,
+              "Hits": 0
+            },
+            {
+              "Line": 91,
+              "Offset": 1043,
+              "EndOffset": 1045,
+              "Path": 0,
+              "Ordinal": 54,
+              "Hits": 0
+            },
+            {
+              "Line": 95,
+              "Offset": 1105,
+              "EndOffset": 1107,
+              "Path": 0,
+              "Ordinal": 56,
+              "Hits": 0
+            },
+            {
+              "Line": 95,
+              "Offset": 1105,
+              "EndOffset": 1146,
+              "Path": 1,
+              "Ordinal": 57,
+              "Hits": 0
+            },
+            {
+              "Line": 91,
+              "Offset": 1043,
+              "EndOffset": 1147,
+              "Path": 1,
+              "Ordinal": 55,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 1163,
+              "EndOffset": 1167,
+              "Path": 1,
+              "Ordinal": 59,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 1163,
+              "EndOffset": 1224,
+              "Path": 0,
+              "Ordinal": 58,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 1261,
+              "EndOffset": 1265,
+              "Path": 1,
+              "Ordinal": 61,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 1261,
+              "EndOffset": 1322,
+              "Path": 0,
+              "Ordinal": 60,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 1360,
+              "EndOffset": 1364,
+              "Path": 1,
+              "Ordinal": 63,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 1360,
+              "EndOffset": 1421,
+              "Path": 0,
+              "Ordinal": 62,
+              "Hits": 0
+            },
+            {
+              "Line": 104,
+              "Offset": 1459,
+              "EndOffset": 1463,
+              "Path": 1,
+              "Ordinal": 65,
+              "Hits": 0
+            },
+            {
+              "Line": 104,
+              "Offset": 1459,
+              "EndOffset": 1499,
+              "Path": 0,
+              "Ordinal": 64,
+              "Hits": 0
+            },
+            {
+              "Line": 104,
+              "Offset": 1519,
+              "EndOffset": 1523,
+              "Path": 1,
+              "Ordinal": 67,
+              "Hits": 0
+            },
+            {
+              "Line": 104,
+              "Offset": 1519,
+              "EndOffset": 1581,
+              "Path": 0,
+              "Ordinal": 66,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api\\Controllers\\WeatherForecastController.cs": {
+      "Prestamos.Api.Controllers.WeatherForecastController": {
+        "System.Collections.Generic.IEnumerable`1<Prestamos.Api.WeatherForecast> Prestamos.Api.Controllers.WeatherForecastController::Get()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void Prestamos.Api.Controllers.WeatherForecastController::.cctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Prestamos.Api.Domain.dll": {
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Domain\\Entities\\BimestresEntity.cs": {
+      "Prestamos.Api.Domain.Entities.BimestresEntity": {
+        "System.Int32 Prestamos.Api.Domain.Entities.BimestresEntity::get_IdBimestre()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Prestamos.Api.Domain.Entities.BimestresEntity::get_Mes()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Prestamos.Api.Domain.Entities.BimestresEntity::get_Estatus()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Domain.Entities.PrestamoAnual": {
+        "System.Int32 Prestamos.Api.Domain.Entities.PrestamoAnual::get_IdUsuario()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_febrero()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_abril()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_junio()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_agosto()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_octubre()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_diciembre()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Prestamos.Api.Infraestructura.dll": {
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Infraestructura\\DatabaseConfig.cs": {
+      "Prestamos.Api.Infraestructura.DatabaseConfig": {
+        "System.Data.IDbConnection Prestamos.Api.Infraestructura.DatabaseConfig::Conexion()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void Prestamos.Api.Infraestructura.DatabaseConfig::.ctor(System.String)": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Infraestructura.DatabaseConfig/<GetData>d__4`1": {
+        "System.Void Prestamos.Api.Infraestructura.DatabaseConfig/<GetData>d__4`1::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Infraestructura.DatabaseConfig/<GetSingleData>d__3`1": {
+        "System.Void Prestamos.Api.Infraestructura.DatabaseConfig/<GetSingleData>d__3`1::MoveNext()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Infraestructura\\BD\\Context\\Bimestres.cs": {
+      "Prestamos.Api.Infraestructura.BD.Context.Bimestres": {
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.Bimestres::.ctor(Prestamos.Api.Infraestructura.DatabaseConfig)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Infraestructura.BD.Context.Bimestres/<>c__DisplayClass2_0": {
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.Bimestres/<>c__DisplayClass2_0::<Get>b__0(Prestamos.Api.Domain.Entities.BimestresEntity)": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Infraestructura.BD.Context.Bimestres/<Get>d__2": {
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.Bimestres/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 278,
+              "EndOffset": 280,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 278,
+              "EndOffset": 316,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Infraestructura\\BD\\Context\\PrestamosContext.cs": {
+      "Prestamos.Api.Infraestructura.BD.Context.PrestamosContext": {
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.PrestamosContext::.ctor(Prestamos.Api.Infraestructura.DatabaseConfig)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Infraestructura.BD.Context.PrestamosContext/<GetPrestamosUsuario>d__3": {
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.PrestamosContext/<GetPrestamosUsuario>d__3::MoveNext()": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Infraestructura.BD.Context.PrestamosContext/<PostPrestamos>d__2": {
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.PrestamosContext/<PostPrestamos>d__2::MoveNext()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 763,
+              "EndOffset": 767,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 763,
+              "EndOffset": 803,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 828,
+              "EndOffset": 830,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 828,
+              "EndOffset": 833,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 838,
+              "EndOffset": 842,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 838,
+              "EndOffset": 889,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 912,
+              "EndOffset": 914,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 912,
+              "EndOffset": 920,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Infraestructura\\BD\\Context\\Repository.cs": {
+      "Prestamos.Api.Infraestructura.BD.Context.Repository": {
+        "Prestamos.Api.Presenters.IBimestres Prestamos.Api.Infraestructura.BD.Context.Repository::get_ibimestre()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "Prestamos.Api.Presenters.IUsuarios Prestamos.Api.Infraestructura.BD.Context.Repository::get_iusuario()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "Prestamos.Api.Presenters.IPrestamosContext Prestamos.Api.Infraestructura.BD.Context.Repository::get_iprestamos()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.Repository::.ctor(Prestamos.Api.Presenters.IBimestres,Prestamos.Api.Presenters.IUsuarios,Prestamos.Api.Presenters.IPrestamosContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Infraestructura\\BD\\Context\\UsuariosRepository.cs": {
+      "Prestamos.Api.Infraestructura.BD.Context.UsuariosRepository": {
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.UsuariosRepository::.ctor(Prestamos.Api.Infraestructura.DatabaseConfig)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Infraestructura.BD.Context.UsuariosRepository/<ConsultarInformacionUsuario>d__2": {
+        "System.Void Prestamos.Api.Infraestructura.BD.Context.UsuariosRepository/<ConsultarInformacionUsuario>d__2::MoveNext()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Prestamos.Api.Presenters.dll": {}
+}

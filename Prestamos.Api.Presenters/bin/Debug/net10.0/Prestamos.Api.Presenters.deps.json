@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Prestamos.Api.Presenters/1.0.0": {
+        "dependencies": {
+          "Prestamos.Api.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Prestamos.Api.Presenters.dll": {}
+        }
+      },
+      "Prestamos.Api.Domain/1.0.0": {
+        "runtime": {
+          "Prestamos.Api.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prestamos.Api.Presenters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Prestamos.Api.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

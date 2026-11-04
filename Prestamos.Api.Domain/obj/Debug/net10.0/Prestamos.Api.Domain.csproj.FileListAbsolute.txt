@@ -1,0 +1,11 @@
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\bin\Debug\net10.0\Prestamos.Api.Domain.deps.json
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\bin\Debug\net10.0\Prestamos.Api.Domain.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\bin\Debug\net10.0\Prestamos.Api.Domain.pdb
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.AssemblyInfoInputs.cache
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.AssemblyInfo.cs
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.csproj.CoreCompileInputs.cache
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\refint\Prestamos.Api.Domain.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.pdb
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\ref\Prestamos.Api.Domain.dll
