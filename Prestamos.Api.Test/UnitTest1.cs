@@ -44,4 +44,16 @@ public class AuthControllerTest : IClassFixture<WebApplicationFactory<Program>>
 
         Assert.True((int)response.StatusCode == 401);
     }
+
+    [Fact]
+    public async Task SwaggerDocument_ExposesApiAndBearerScheme()
+    {
+        var client = _factory.CreateClient();
+        var response = await client.GetAsync("/swagger/v1/swagger.json");
+
+        response.EnsureSuccessStatusCode();
+        using var document = JsonDocument.Parse(await response.Content.ReadAsStringAsync());
+        Assert.Equal("Prestamos Bimestrales API", document.RootElement.GetProperty("info").GetProperty("title").GetString());
+        Assert.True(document.RootElement.GetProperty("components").GetProperty("securitySchemes").TryGetProperty("Bearer", out _));
+    }
 }

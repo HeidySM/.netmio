@@ -1,0 +1,16 @@
+C:\Users\heidr\PrestamosBimestrales\.artifacts\bin\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.deps.json
+C:\Users\heidr\PrestamosBimestrales\.artifacts\bin\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.dll
+C:\Users\heidr\PrestamosBimestrales\.artifacts\bin\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.pdb
+C:\Users\heidr\PrestamosBimestrales\.artifacts\bin\Prestamos.Api.Presenters\debug\Prestamos.Api.Domain.dll
+C:\Users\heidr\PrestamosBimestrales\.artifacts\bin\Prestamos.Api.Presenters\debug\Prestamos.Api.Domain.pdb
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.csproj.AssemblyReference.cache
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.AssemblyInfoInputs.cache
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.AssemblyInfo.cs
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.csproj.CoreCompileInputs.cache
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.sourcelink.json
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamo.834D1BB0.Up2Date
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.dll
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\refint\Prestamos.Api.Presenters.dll
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\Prestamos.Api.Presenters.pdb
+C:\Users\heidr\PrestamosBimestrales\.artifacts\obj\Prestamos.Api.Presenters\debug\ref\Prestamos.Api.Presenters.dll

@@ -1,0 +1,6 @@
+{
+  "Prestamos.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api",
+  "Prestamos.Api.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Domain",
+  "Prestamos.Api.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Infraestructura",
+  "Prestamos.Api.Presenters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Presenters"
+}

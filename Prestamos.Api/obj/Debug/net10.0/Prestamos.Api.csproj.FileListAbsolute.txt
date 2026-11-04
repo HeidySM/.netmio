@@ -72,3 +72,8 @@ C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\obj\Debug\net10.0\refint\Prest
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\obj\Debug\net10.0\Prestamos.Api.pdb
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\obj\Debug\net10.0\Prestamos.Api.genruntimeconfig.cache
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\obj\Debug\net10.0\ref\Prestamos.Api.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api\obj\Debug\net10.0\Prestamos.Api.MvcApplicationPartsAssemblyInfo.cs

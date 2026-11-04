@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prestamos.Api.Presenters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a8fa8e63cd4d9d79b6c1cfa2aeb5a1376ae41e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+832442fe43c5d059771050b8de9e1c71dcd2d2e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prestamos.Api.Presenters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prestamos.Api.Presenters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
