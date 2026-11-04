@@ -1,9 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-using System.Dynamic;
+using Prestamos.Api.Presenters.CasosUso;
 
 namespace Prestamos.Api.Controllers;
 
@@ -11,40 +7,20 @@ namespace Prestamos.Api.Controllers;
 [Route("api/[controller]")]
 public class AuthController : ControllerBase
 {
-    private readonly IConfiguration _config;
+    private readonly JwtUseCases _jwt;
 
     public AuthController(IConfiguration config)
     {
-        _config = config;
+        _jwt = new JwtUseCases(config);
     }
 
     [HttpPost("token")]
     public IActionResult GenerateToken([FromForm] string client_id, [FromForm] string client_secret)
     {
-        if (client_id != "f47ac10b-58cc-4372-a567-0e02b2c3d479" || client_secret != "Y2xhdmVfc3VwZXJfc2VjcmV0YV9tdXlfc2VndXJh")
+        if (!_jwt.ValidarCliente(client_id, client_secret))
             return Unauthorized();
 
-        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
-        var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-        var claims = new[] {
-            new Claim(JwtRegisteredClaimNames.Sub, client_id),
-            new Claim(ClaimTypes.Role, "User")
-        };
-
-        var token = new JwtSecurityToken(
-            issuer: _config["Jwt:Issuer"],
-            audience: _config["Jwt:Audience"],
-            claims: claims,
-            expires: DateTime.Now.AddMinutes(120),
-            signingCredentials: credentials);
-
-        // Uso de clase dinámica para construir la respuesta
-        dynamic response = new ExpandoObject();
-        response.access_token = new JwtSecurityTokenHandler().WriteToken(token);
-        response.token_type = "Bearer";
-        response.expires_in = 7200;
-
-        return Ok(response);
+        var token = _jwt.GenerarToken(client_id);
+        return Ok(new { access_token = token.AccessToken, token_type = token.Tipo, expires_in = token.ExpiraEn });
     }
 }

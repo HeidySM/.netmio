@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GrrUIKJJrRg=",
+  "dgSpecHash": "TaletIgozBw=",
   "success": true,
   "projectFilePath": "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Test\\Prestamos.Api.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\heidr\\.nuget\\packages\\castle.core\\5.2.1\\castle.core.5.2.1.nupkg.sha512",
+    "C:\\Users\\heidr\\.nuget\\packages\\coverlet.collector\\10.1.0\\coverlet.collector.10.1.0.nupkg.sha512",
     "C:\\Users\\heidr\\.nuget\\packages\\coverlet.msbuild\\10.1.0\\coverlet.msbuild.10.1.0.nupkg.sha512",
     "C:\\Users\\heidr\\.nuget\\packages\\dapper\\2.1.89\\dapper.2.1.89.nupkg.sha512",
     "C:\\Users\\heidr\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.14\\microsoft.aspnetcore.authentication.jwtbearer.10.0.14.nupkg.sha512",

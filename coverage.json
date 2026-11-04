@@ -4,16 +4,15 @@
       "Program": {
         "System.Void Program::<Main>$(System.String[])": {
           "Lines": {
-            "8": 1,
-            "10": 1,
-            "12": 1,
+            "9": 1,
+            "11": 1,
             "13": 1,
             "14": 1,
             "15": 1,
             "16": 1,
             "17": 1,
+            "18": 1,
             "19": 1,
-            "20": 1,
             "21": 1,
             "22": 1,
             "23": 1,
@@ -25,12 +24,14 @@
             "29": 1,
             "30": 1,
             "31": 1,
-            "32": 2,
-            "34": 1,
+            "32": 1,
+            "33": 1,
+            "34": 2,
             "36": 1,
-            "37": 1,
+            "38": 1,
             "39": 1,
-            "40": 1
+            "41": 1,
+            "42": 1
           },
           "Branches": []
         }
@@ -68,149 +69,38 @@
       "Prestamos.Api.Controllers.AuthController": {
         "Microsoft.AspNetCore.Mvc.IActionResult Prestamos.Api.Controllers.AuthController::GenerateToken(System.String,System.String)": {
           "Lines": {
-            "23": 2,
-            "24": 2,
-            "25": 1,
-            "27": 1,
-            "28": 1,
-            "30": 1,
-            "31": 1,
-            "32": 1,
-            "33": 1,
-            "35": 1,
-            "36": 1,
-            "37": 1,
-            "38": 1,
-            "39": 1,
-            "40": 1,
-            "43": 1,
-            "44": 1,
-            "45": 1,
-            "46": 1,
-            "48": 1,
-            "49": 2
+            "19": 2,
+            "20": 2,
+            "21": 1,
+            "23": 1,
+            "24": 1,
+            "25": 2
           },
           "Branches": [
             {
-              "Line": 24,
-              "Offset": 12,
-              "EndOffset": 14,
+              "Line": 20,
+              "Offset": 19,
+              "EndOffset": 21,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 1
             },
             {
-              "Line": 24,
-              "Offset": 12,
-              "EndOffset": 27,
+              "Line": 20,
+              "Offset": 19,
+              "EndOffset": 30,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 1
-            },
-            {
-              "Line": 24,
-              "Offset": 32,
-              "EndOffset": 34,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 1
-            },
-            {
-              "Line": 24,
-              "Offset": 32,
-              "EndOffset": 47,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 1
-            },
-            {
-              "Line": 44,
-              "Offset": 228,
-              "EndOffset": 232,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 1
-            },
-            {
-              "Line": 44,
-              "Offset": 228,
-              "EndOffset": 289,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 1
-            },
-            {
-              "Line": 45,
-              "Offset": 328,
-              "EndOffset": 332,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 1
-            },
-            {
-              "Line": 45,
-              "Offset": 328,
-              "EndOffset": 389,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 1
-            },
-            {
-              "Line": 46,
-              "Offset": 422,
-              "EndOffset": 426,
-              "Path": 1,
-              "Ordinal": 9,
-              "Hits": 1
-            },
-            {
-              "Line": 46,
-              "Offset": 422,
-              "EndOffset": 483,
-              "Path": 0,
-              "Ordinal": 8,
-              "Hits": 1
-            },
-            {
-              "Line": 48,
-              "Offset": 516,
-              "EndOffset": 520,
-              "Path": 1,
-              "Ordinal": 11,
-              "Hits": 1
-            },
-            {
-              "Line": 48,
-              "Offset": 516,
-              "EndOffset": 556,
-              "Path": 0,
-              "Ordinal": 10,
-              "Hits": 1
-            },
-            {
-              "Line": 48,
-              "Offset": 576,
-              "EndOffset": 580,
-              "Path": 1,
-              "Ordinal": 13,
-              "Hits": 1
-            },
-            {
-              "Line": 48,
-              "Offset": 576,
-              "EndOffset": 638,
-              "Path": 0,
-              "Ordinal": 12,
               "Hits": 1
             }
           ]
         },
         "System.Void Prestamos.Api.Controllers.AuthController::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
           "Lines": {
-            "16": 2,
-            "17": 2,
-            "18": 2,
-            "19": 2
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "15": 2
           },
           "Branches": []
         }
@@ -218,828 +108,134 @@
     },
     "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api\\Controllers\\PrestamosController.cs": {
       "Prestamos.Api.Controllers.PrestamosController": {
-        "System.Void Prestamos.Api.Controllers.PrestamosController::.ctor(Prestamos.Api.Presenters.IRepository)": {
+        "System.Void Prestamos.Api.Controllers.PrestamosController::.ctor(Prestamos.Api.Presenters.IRepository,Prestamos.Api.Presenters.CasosUso.PrestamosUseCases)": {
           "Lines": {
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0
+            "17": 6,
+            "18": 6,
+            "19": 6,
+            "20": 6,
+            "21": 6
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 20,
+              "Offset": 18,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Prestamos.Api.Controllers.PrestamosController/<>c": {
+        "<>f__AnonymousType6`4<System.Int32,System.String,System.Boolean,System.Boolean> Prestamos.Api.Controllers.PrestamosController/<>c::<ConsultarBimestresPorUsuario>b__5_0(Prestamos.Api.Presenters.CasosUso.BimestreInfo)": {
+          "Lines": {
+            "72": 0
           },
           "Branches": []
         }
       },
-      "Prestamos.Api.Controllers.PrestamosController/<>c": {
-        "System.Boolean Prestamos.Api.Controllers.PrestamosController/<>c::<ConsultarBimestresPorUsuario>b__4_1(System.Object)": {
+      "Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass3_0": {
+        "<>f__AnonymousType1`4<System.Int32,System.String,System.Int32,System.Boolean> Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass3_0::<ConsultarBimestres>b__0(Prestamos.Api.Presenters.CasosUso.BimestreInfo,System.Int32)": {
           "Lines": {
-            "149": 0
+            "28": 1
           },
-          "Branches": [
-            {
-              "Line": 149,
-              "Offset": 5,
-              "EndOffset": 9,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 149,
-              "Offset": 5,
-              "EndOffset": 45,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 149,
-              "Offset": 65,
-              "EndOffset": 69,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 0
-            },
-            {
-              "Line": 149,
-              "Offset": 65,
-              "EndOffset": 123,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 0
-            },
-            {
-              "Line": 149,
-              "Offset": 143,
-              "EndOffset": 147,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 0
-            },
-            {
-              "Line": 149,
-              "Offset": 143,
-              "EndOffset": 195,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 0
-            },
-            {
-              "Line": 149,
-              "Offset": 215,
-              "EndOffset": 219,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 0
-            },
-            {
-              "Line": 149,
-              "Offset": 215,
-              "EndOffset": 266,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 0
-            }
-          ]
+          "Branches": []
         }
       },
-      "Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass2_0": {
-        "System.Object Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass2_0::<ConsultarBimestres>b__0(Prestamos.Api.Domain.Entities.BimestresEntity)": {
+      "Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestres>d__3": {
+        "System.Void Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestres>d__3::MoveNext()": {
           "Lines": {
-            "29": 0,
-            "30": 0,
-            "31": 0,
-            "32": 0,
-            "33": 0,
-            "35": 0,
-            "36": 0,
-            "37": 0,
-            "38": 0,
-            "40": 0,
-            "41": 0,
-            "42": 0
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestresPorUsuario>d__5": {
+        "System.Void Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestresPorUsuario>d__5::MoveNext()": {
+          "Lines": {
+            "58": 2,
+            "59": 2,
+            "60": 2,
+            "61": 2,
+            "62": 1,
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "73": 1,
+            "74": 2
           },
           "Branches": [
             {
-              "Line": 31,
-              "Offset": 12,
-              "EndOffset": 16,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 31,
-              "Offset": 12,
-              "EndOffset": 73,
+              "Line": 61,
+              "Offset": 227,
+              "EndOffset": 229,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 1
             },
             {
-              "Line": 32,
-              "Offset": 106,
-              "EndOffset": 110,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 0
-            },
-            {
-              "Line": 32,
-              "Offset": 106,
-              "EndOffset": 167,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 0
-            },
-            {
-              "Line": 33,
-              "Offset": 200,
-              "EndOffset": 204,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 0
-            },
-            {
-              "Line": 33,
-              "Offset": 200,
+              "Line": 61,
+              "Offset": 227,
               "EndOffset": 261,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 316,
-              "EndOffset": 318,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 329,
-              "EndOffset": 331,
-              "Path": 0,
-              "Ordinal": 8,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 342,
-              "EndOffset": 344,
-              "Path": 0,
-              "Ordinal": 10,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 355,
-              "EndOffset": 357,
-              "Path": 0,
-              "Ordinal": 12,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 368,
-              "EndOffset": 370,
-              "Path": 0,
-              "Ordinal": 14,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 316,
-              "EndOffset": 385,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 329,
-              "EndOffset": 389,
-              "Path": 1,
-              "Ordinal": 9,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 342,
-              "EndOffset": 393,
-              "Path": 1,
-              "Ordinal": 11,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 355,
-              "EndOffset": 397,
-              "Path": 1,
-              "Ordinal": 13,
-              "Hits": 0
-            },
-            {
-              "Line": 35,
-              "Offset": 368,
-              "EndOffset": 401,
-              "Path": 1,
-              "Ordinal": 15,
-              "Hits": 0
-            },
-            {
-              "Line": 40,
-              "Offset": 426,
-              "EndOffset": 430,
-              "Path": 1,
-              "Ordinal": 17,
-              "Hits": 0
-            },
-            {
-              "Line": 40,
-              "Offset": 426,
-              "EndOffset": 487,
-              "Path": 0,
-              "Ordinal": 16,
-              "Hits": 0
-            }
-          ]
-        }
-      },
-      "Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass4_0": {
-        "System.Object Prestamos.Api.Controllers.PrestamosController/<>c__DisplayClass4_0::<ConsultarBimestresPorUsuario>b__0(Prestamos.Api.Domain.Entities.BimestresEntity)": {
-          "Lines": {
-            "127": 0,
-            "128": 0,
-            "129": 0,
-            "130": 0,
-            "132": 0,
-            "133": 0,
-            "134": 0,
-            "135": 0,
-            "137": 0,
-            "139": 0,
-            "140": 0,
-            "141": 0,
-            "143": 0,
-            "144": 0
-          },
-          "Branches": [
-            {
-              "Line": 129,
-              "Offset": 12,
-              "EndOffset": 16,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 129,
-              "Offset": 12,
-              "EndOffset": 73,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 130,
-              "Offset": 106,
-              "EndOffset": 110,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 0
-            },
-            {
-              "Line": 130,
-              "Offset": 106,
-              "EndOffset": 167,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 222,
-              "EndOffset": 224,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 235,
-              "EndOffset": 237,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 248,
-              "EndOffset": 250,
-              "Path": 0,
-              "Ordinal": 8,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 261,
-              "EndOffset": 263,
-              "Path": 0,
-              "Ordinal": 10,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 274,
-              "EndOffset": 276,
-              "Path": 0,
-              "Ordinal": 12,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 222,
-              "EndOffset": 291,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 235,
-              "EndOffset": 295,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 248,
-              "EndOffset": 299,
-              "Path": 1,
-              "Ordinal": 9,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 261,
-              "EndOffset": 303,
-              "Path": 1,
-              "Ordinal": 11,
-              "Hits": 0
-            },
-            {
-              "Line": 132,
-              "Offset": 274,
-              "EndOffset": 307,
-              "Path": 1,
-              "Ordinal": 13,
-              "Hits": 0
-            },
-            {
-              "Line": 137,
-              "Offset": 332,
-              "EndOffset": 336,
-              "Path": 1,
-              "Ordinal": 15,
-              "Hits": 0
-            },
-            {
-              "Line": 137,
-              "Offset": 332,
-              "EndOffset": 393,
-              "Path": 0,
-              "Ordinal": 14,
-              "Hits": 0
-            },
-            {
-              "Line": 139,
-              "Offset": 429,
-              "EndOffset": 433,
-              "Path": 1,
-              "Ordinal": 17,
-              "Hits": 0
-            },
-            {
-              "Line": 139,
-              "Offset": 429,
-              "EndOffset": 490,
-              "Path": 0,
-              "Ordinal": 16,
-              "Hits": 0
-            },
-            {
-              "Line": 139,
-              "Offset": 512,
-              "EndOffset": 514,
-              "Path": 0,
-              "Ordinal": 18,
-              "Hits": 0
-            },
-            {
-              "Line": 139,
-              "Offset": 536,
-              "EndOffset": 538,
-              "Path": 0,
-              "Ordinal": 20,
-              "Hits": 0
-            },
-            {
-              "Line": 139,
-              "Offset": 512,
-              "EndOffset": 567,
-              "Path": 1,
-              "Ordinal": 19,
-              "Hits": 0
-            },
-            {
-              "Line": 139,
-              "Offset": 536,
-              "EndOffset": 567,
-              "Path": 1,
-              "Ordinal": 21,
-              "Hits": 0
+              "Hits": 1
             }
           ]
         }
       },
-      "Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestres>d__2": {
-        "System.Void Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestres>d__2::MoveNext()": {
+      "Prestamos.Api.Controllers.PrestamosController/<SolicitarPrestamo>d__4": {
+        "System.Void Prestamos.Api.Controllers.PrestamosController/<SolicitarPrestamo>d__4::MoveNext()": {
           "Lines": {
-            "23": 0,
-            "25": 0,
-            "26": 0,
-            "28": 0,
-            "34": 0,
-            "39": 0,
-            "44": 0,
-            "45": 0,
-            "46": 0,
+            "34": 3,
+            "35": 3,
+            "36": 1,
+            "38": 2,
+            "39": 2,
+            "40": 0,
+            "41": 2,
+            "42": 0,
+            "44": 2,
+            "45": 2,
+            "46": 2,
             "47": 0,
-            "48": 0,
-            "49": 0
+            "48": 2,
+            "49": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 3
           },
           "Branches": [
             {
-              "Line": 45,
-              "Offset": 236,
-              "EndOffset": 240,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 45,
-              "Offset": 236,
-              "EndOffset": 297,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 46,
-              "Offset": 334,
-              "EndOffset": 338,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 0
-            },
-            {
-              "Line": 46,
-              "Offset": 334,
-              "EndOffset": 395,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 0
-            },
-            {
-              "Line": 47,
-              "Offset": 432,
-              "EndOffset": 436,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 0
-            },
-            {
-              "Line": 47,
-              "Offset": 432,
-              "EndOffset": 493,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 0
-            },
-            {
-              "Line": 48,
-              "Offset": 531,
-              "EndOffset": 535,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 0
-            },
-            {
-              "Line": 48,
-              "Offset": 531,
-              "EndOffset": 571,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 0
-            },
-            {
-              "Line": 48,
-              "Offset": 591,
-              "EndOffset": 595,
-              "Path": 1,
-              "Ordinal": 9,
-              "Hits": 0
-            },
-            {
-              "Line": 48,
-              "Offset": 591,
-              "EndOffset": 653,
-              "Path": 0,
-              "Ordinal": 8,
-              "Hits": 0
-            }
-          ]
-        }
-      },
-      "Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestresPorUsuario>d__4": {
-        "System.Void Prestamos.Api.Controllers.PrestamosController/<ConsultarBimestresPorUsuario>d__4::MoveNext()": {
-          "Lines": {
-            "109": 0,
-            "111": 0,
-            "112": 0,
-            "114": 0,
-            "115": 0,
-            "116": 0,
-            "120": 0,
-            "123": 0,
-            "124": 0,
-            "126": 0,
-            "131": 0,
-            "136": 0,
-            "138": 0,
-            "142": 0,
-            "146": 0,
-            "147": 0,
-            "148": 0,
-            "150": 0,
-            "152": 0,
-            "153": 0,
-            "154": 0,
-            "155": 0,
-            "157": 0,
-            "158": 0
-          },
-          "Branches": [
-            {
-              "Line": 114,
-              "Offset": 215,
-              "EndOffset": 217,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 114,
-              "Offset": 233,
-              "EndOffset": 235,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 0
-            },
-            {
-              "Line": 114,
-              "Offset": 215,
-              "EndOffset": 265,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 114,
-              "Offset": 233,
-              "EndOffset": 265,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 0
-            },
-            {
-              "Line": 114,
-              "Offset": 270,
-              "EndOffset": 272,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 0
-            },
-            {
-              "Line": 114,
-              "Offset": 270,
-              "EndOffset": 305,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 0
-            },
-            {
-              "Line": 146,
-              "Offset": 679,
-              "EndOffset": 681,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 0
-            },
-            {
-              "Line": 146,
-              "Offset": 679,
-              "EndOffset": 685,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 0
-            },
-            {
-              "Line": 146,
-              "Offset": 691,
-              "EndOffset": 693,
-              "Path": 0,
-              "Ordinal": 8,
-              "Hits": 0
-            },
-            {
-              "Line": 146,
-              "Offset": 691,
-              "EndOffset": 699,
-              "Path": 1,
-              "Ordinal": 9,
-              "Hits": 0
-            },
-            {
-              "Line": 147,
-              "Offset": 724,
-              "EndOffset": 726,
-              "Path": 0,
-              "Ordinal": 10,
-              "Hits": 0
-            },
-            {
-              "Line": 147,
-              "Offset": 724,
-              "EndOffset": 771,
-              "Path": 1,
-              "Ordinal": 11,
-              "Hits": 0
-            },
-            {
-              "Line": 153,
-              "Offset": 787,
-              "EndOffset": 791,
-              "Path": 1,
-              "Ordinal": 13,
-              "Hits": 0
-            },
-            {
-              "Line": 153,
-              "Offset": 787,
-              "EndOffset": 848,
-              "Path": 0,
-              "Ordinal": 12,
-              "Hits": 0
-            },
-            {
-              "Line": 154,
-              "Offset": 885,
-              "EndOffset": 889,
-              "Path": 1,
-              "Ordinal": 15,
-              "Hits": 0
-            },
-            {
-              "Line": 154,
-              "Offset": 885,
-              "EndOffset": 946,
-              "Path": 0,
-              "Ordinal": 14,
-              "Hits": 0
-            },
-            {
-              "Line": 154,
-              "Offset": 984,
-              "EndOffset": 986,
-              "Path": 0,
-              "Ordinal": 16,
-              "Hits": 0
-            },
-            {
-              "Line": 154,
-              "Offset": 984,
-              "EndOffset": 990,
-              "Path": 1,
-              "Ordinal": 17,
-              "Hits": 0
-            },
-            {
-              "Line": 155,
-              "Offset": 1006,
-              "EndOffset": 1010,
-              "Path": 1,
-              "Ordinal": 19,
-              "Hits": 0
-            },
-            {
-              "Line": 155,
-              "Offset": 1006,
-              "EndOffset": 1067,
-              "Path": 0,
-              "Ordinal": 18,
-              "Hits": 0
-            },
-            {
-              "Line": 157,
-              "Offset": 1105,
-              "EndOffset": 1109,
-              "Path": 1,
-              "Ordinal": 21,
-              "Hits": 0
-            },
-            {
-              "Line": 157,
-              "Offset": 1105,
-              "EndOffset": 1145,
-              "Path": 0,
-              "Ordinal": 20,
-              "Hits": 0
-            },
-            {
-              "Line": 157,
-              "Offset": 1165,
-              "EndOffset": 1169,
-              "Path": 1,
-              "Ordinal": 23,
-              "Hits": 0
-            },
-            {
-              "Line": 157,
-              "Offset": 1165,
-              "EndOffset": 1227,
-              "Path": 0,
-              "Ordinal": 22,
-              "Hits": 0
-            }
-          ]
-        }
-      },
-      "Prestamos.Api.Controllers.PrestamosController/<SolicitarPrestamo>d__3": {
-        "System.Void Prestamos.Api.Controllers.PrestamosController/<SolicitarPrestamo>d__3::MoveNext()": {
-          "Lines": {
-            "53": 0,
-            "54": 0,
-            "55": 0,
-            "57": 0,
-            "58": 0,
-            "60": 0,
-            "61": 0,
-            "62": 0,
-            "63": 0,
-            "64": 0,
-            "68": 0,
-            "69": 0,
-            "71": 0,
-            "72": 0,
-            "74": 0,
-            "75": 0,
-            "77": 0,
-            "78": 0,
-            "81": 0,
-            "83": 0,
-            "84": 0,
-            "85": 0,
-            "87": 0,
-            "88": 0,
-            "89": 0,
-            "90": 0,
-            "91": 0,
-            "92": 0,
-            "93": 0,
-            "95": 0,
-            "96": 0,
-            "97": 0,
-            "99": 0,
-            "100": 0,
-            "101": 0,
-            "102": 0,
-            "104": 0,
-            "105": 0
-          },
-          "Branches": [
-            {
-              "Line": 54,
+              "Line": 35,
               "Offset": 35,
               "EndOffset": 37,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 3
             },
             {
-              "Line": 54,
+              "Line": 35,
               "Offset": 35,
               "EndOffset": 53,
               "Path": 1,
@@ -1047,532 +243,100 @@
               "Hits": 0
             },
             {
-              "Line": 54,
+              "Line": 35,
               "Offset": 56,
               "EndOffset": 58,
               "Path": 0,
               "Ordinal": 2,
-              "Hits": 0
+              "Hits": 1
             },
             {
-              "Line": 54,
+              "Line": 35,
               "Offset": 56,
               "EndOffset": 90,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 0
+              "Hits": 2
             },
             {
-              "Line": 60,
-              "Offset": 137,
-              "EndOffset": 139,
+              "Line": 39,
+              "Offset": 135,
+              "EndOffset": 137,
               "Path": 0,
               "Ordinal": 4,
               "Hits": 0
             },
             {
-              "Line": 60,
-              "Offset": 137,
-              "EndOffset": 148,
+              "Line": 39,
+              "Offset": 135,
+              "EndOffset": 169,
               "Path": 1,
               "Ordinal": 5,
-              "Hits": 0
+              "Hits": 2
             },
             {
-              "Line": 60,
-              "Offset": 146,
-              "EndOffset": 148,
+              "Line": 41,
+              "Offset": 205,
+              "EndOffset": 207,
               "Path": 0,
               "Ordinal": 6,
               "Hits": 0
             },
             {
-              "Line": 60,
-              "Offset": 159,
-              "EndOffset": 161,
+              "Line": 41,
+              "Offset": 205,
+              "EndOffset": 239,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 46,
+              "Offset": 435,
+              "EndOffset": 437,
               "Path": 0,
               "Ordinal": 8,
               "Hits": 0
             },
             {
-              "Line": 60,
-              "Offset": 159,
-              "EndOffset": 170,
+              "Line": 46,
+              "Offset": 435,
+              "EndOffset": 469,
               "Path": 1,
               "Ordinal": 9,
-              "Hits": 0
+              "Hits": 2
             },
             {
-              "Line": 60,
-              "Offset": 168,
-              "EndOffset": 170,
+              "Line": 48,
+              "Offset": 496,
+              "EndOffset": 498,
               "Path": 0,
               "Ordinal": 10,
-              "Hits": 0
+              "Hits": 1
             },
             {
-              "Line": 60,
-              "Offset": 181,
-              "EndOffset": 183,
-              "Path": 0,
-              "Ordinal": 12,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 181,
-              "EndOffset": 192,
-              "Path": 1,
-              "Ordinal": 13,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 190,
-              "EndOffset": 192,
-              "Path": 0,
-              "Ordinal": 14,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 203,
-              "EndOffset": 205,
-              "Path": 0,
-              "Ordinal": 16,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 203,
-              "EndOffset": 214,
-              "Path": 1,
-              "Ordinal": 17,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 212,
-              "EndOffset": 214,
-              "Path": 0,
-              "Ordinal": 18,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 225,
-              "EndOffset": 227,
-              "Path": 0,
-              "Ordinal": 20,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 225,
-              "EndOffset": 239,
-              "Path": 1,
-              "Ordinal": 21,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 146,
-              "EndOffset": 242,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 168,
-              "EndOffset": 242,
+              "Line": 48,
+              "Offset": 496,
+              "EndOffset": 511,
               "Path": 1,
               "Ordinal": 11,
-              "Hits": 0
+              "Hits": 1
             },
             {
-              "Line": 60,
-              "Offset": 190,
-              "EndOffset": 242,
-              "Path": 1,
-              "Ordinal": 15,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 212,
-              "EndOffset": 242,
-              "Path": 1,
-              "Ordinal": 19,
-              "Hits": 0
-            },
-            {
-              "Line": 60,
-              "Offset": 247,
-              "EndOffset": 249,
+              "Line": 48,
+              "Offset": 516,
+              "EndOffset": 518,
               "Path": 0,
-              "Ordinal": 22,
-              "Hits": 0
+              "Ordinal": 12,
+              "Hits": 1
             },
             {
-              "Line": 60,
-              "Offset": 247,
-              "EndOffset": 282,
+              "Line": 48,
+              "Offset": 516,
+              "EndOffset": 550,
               "Path": 1,
-              "Ordinal": 23,
-              "Hits": 0
-            },
-            {
-              "Line": 71,
-              "Offset": 455,
-              "EndOffset": 457,
-              "Path": 0,
-              "Ordinal": 24,
-              "Hits": 0
-            },
-            {
-              "Line": 71,
-              "Offset": 473,
-              "EndOffset": 475,
-              "Path": 0,
-              "Ordinal": 26,
-              "Hits": 0
-            },
-            {
-              "Line": 71,
-              "Offset": 455,
-              "EndOffset": 505,
-              "Path": 1,
-              "Ordinal": 25,
-              "Hits": 0
-            },
-            {
-              "Line": 71,
-              "Offset": 473,
-              "EndOffset": 505,
-              "Path": 1,
-              "Ordinal": 27,
-              "Hits": 0
-            },
-            {
-              "Line": 71,
-              "Offset": 510,
-              "EndOffset": 512,
-              "Path": 0,
-              "Ordinal": 28,
-              "Hits": 0
-            },
-            {
-              "Line": 71,
-              "Offset": 510,
-              "EndOffset": 544,
-              "Path": 1,
-              "Ordinal": 29,
-              "Hits": 0
-            },
-            {
-              "Line": 74,
-              "Offset": 562,
-              "EndOffset": 564,
-              "Path": 0,
-              "Ordinal": 30,
-              "Hits": 0
-            },
-            {
-              "Line": 74,
-              "Offset": 562,
-              "EndOffset": 568,
-              "Path": 1,
-              "Ordinal": 31,
-              "Hits": 0
-            },
-            {
-              "Line": 74,
-              "Offset": 574,
-              "EndOffset": 576,
-              "Path": 0,
-              "Ordinal": 32,
-              "Hits": 0
-            },
-            {
-              "Line": 74,
-              "Offset": 574,
-              "EndOffset": 582,
-              "Path": 1,
-              "Ordinal": 33,
-              "Hits": 0
-            },
-            {
-              "Line": 75,
-              "Offset": 604,
-              "EndOffset": 606,
-              "Path": 0,
-              "Ordinal": 34,
-              "Hits": 0
-            },
-            {
-              "Line": 75,
-              "Offset": 604,
-              "EndOffset": 613,
-              "Path": 1,
-              "Ordinal": 35,
-              "Hits": 0
-            },
-            {
-              "Line": 77,
-              "Offset": 655,
-              "EndOffset": 657,
-              "Path": 0,
-              "Ordinal": 36,
-              "Hits": 0
-            },
-            {
-              "Line": 77,
-              "Offset": 655,
-              "EndOffset": 670,
-              "Path": 1,
-              "Ordinal": 37,
-              "Hits": 0
-            },
-            {
-              "Line": 77,
-              "Offset": 675,
-              "EndOffset": 677,
-              "Path": 0,
-              "Ordinal": 38,
-              "Hits": 0
-            },
-            {
-              "Line": 77,
-              "Offset": 675,
-              "EndOffset": 709,
-              "Path": 1,
-              "Ordinal": 39,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 878,
-              "EndOffset": 880,
-              "Path": 0,
-              "Ordinal": 40,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 878,
-              "EndOffset": 883,
-              "Path": 1,
-              "Ordinal": 41,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 895,
-              "EndOffset": 897,
-              "Path": 0,
-              "Ordinal": 42,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 895,
-              "EndOffset": 900,
-              "Path": 1,
-              "Ordinal": 43,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 913,
-              "EndOffset": 915,
-              "Path": 0,
-              "Ordinal": 44,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 913,
-              "EndOffset": 918,
-              "Path": 1,
-              "Ordinal": 45,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 931,
-              "EndOffset": 933,
-              "Path": 0,
-              "Ordinal": 46,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 931,
-              "EndOffset": 936,
-              "Path": 1,
-              "Ordinal": 47,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 949,
-              "EndOffset": 951,
-              "Path": 0,
-              "Ordinal": 48,
-              "Hits": 0
-            },
-            {
-              "Line": 84,
-              "Offset": 949,
-              "EndOffset": 954,
-              "Path": 1,
-              "Ordinal": 49,
-              "Hits": 0
-            },
-            {
-              "Line": 87,
-              "Offset": 981,
-              "EndOffset": 983,
-              "Path": 0,
-              "Ordinal": 50,
-              "Hits": 0
-            },
-            {
-              "Line": 89,
-              "Offset": 992,
-              "EndOffset": 994,
-              "Path": 0,
-              "Ordinal": 52,
-              "Hits": 0
-            },
-            {
-              "Line": 89,
-              "Offset": 992,
-              "EndOffset": 1001,
-              "Path": 1,
-              "Ordinal": 53,
-              "Hits": 0
-            },
-            {
-              "Line": 87,
-              "Offset": 981,
-              "EndOffset": 1023,
-              "Path": 1,
-              "Ordinal": 51,
-              "Hits": 0
-            },
-            {
-              "Line": 91,
-              "Offset": 1043,
-              "EndOffset": 1045,
-              "Path": 0,
-              "Ordinal": 54,
-              "Hits": 0
-            },
-            {
-              "Line": 95,
-              "Offset": 1105,
-              "EndOffset": 1107,
-              "Path": 0,
-              "Ordinal": 56,
-              "Hits": 0
-            },
-            {
-              "Line": 95,
-              "Offset": 1105,
-              "EndOffset": 1146,
-              "Path": 1,
-              "Ordinal": 57,
-              "Hits": 0
-            },
-            {
-              "Line": 91,
-              "Offset": 1043,
-              "EndOffset": 1147,
-              "Path": 1,
-              "Ordinal": 55,
-              "Hits": 0
-            },
-            {
-              "Line": 100,
-              "Offset": 1163,
-              "EndOffset": 1167,
-              "Path": 1,
-              "Ordinal": 59,
-              "Hits": 0
-            },
-            {
-              "Line": 100,
-              "Offset": 1163,
-              "EndOffset": 1224,
-              "Path": 0,
-              "Ordinal": 58,
-              "Hits": 0
-            },
-            {
-              "Line": 101,
-              "Offset": 1261,
-              "EndOffset": 1265,
-              "Path": 1,
-              "Ordinal": 61,
-              "Hits": 0
-            },
-            {
-              "Line": 101,
-              "Offset": 1261,
-              "EndOffset": 1322,
-              "Path": 0,
-              "Ordinal": 60,
-              "Hits": 0
-            },
-            {
-              "Line": 102,
-              "Offset": 1360,
-              "EndOffset": 1364,
-              "Path": 1,
-              "Ordinal": 63,
-              "Hits": 0
-            },
-            {
-              "Line": 102,
-              "Offset": 1360,
-              "EndOffset": 1421,
-              "Path": 0,
-              "Ordinal": 62,
-              "Hits": 0
-            },
-            {
-              "Line": 104,
-              "Offset": 1459,
-              "EndOffset": 1463,
-              "Path": 1,
-              "Ordinal": 65,
-              "Hits": 0
-            },
-            {
-              "Line": 104,
-              "Offset": 1459,
-              "EndOffset": 1499,
-              "Path": 0,
-              "Ordinal": 64,
-              "Hits": 0
-            },
-            {
-              "Line": 104,
-              "Offset": 1519,
-              "EndOffset": 1523,
-              "Path": 1,
-              "Ordinal": 67,
-              "Hits": 0
-            },
-            {
-              "Line": 104,
-              "Offset": 1519,
-              "EndOffset": 1581,
-              "Path": 0,
-              "Ordinal": 66,
-              "Hits": 0
+              "Ordinal": 13,
+              "Hits": 1
             }
           ]
         }
@@ -1607,23 +371,103 @@
     }
   },
   "Prestamos.Api.Domain.dll": {
-    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Domain\\Entities\\BimestresEntity.cs": {
-      "Prestamos.Api.Domain.Entities.BimestresEntity": {
-        "System.Int32 Prestamos.Api.Domain.Entities.BimestresEntity::get_IdBimestre()": {
-          "Lines": {
-            "5": 0
-          },
-          "Branches": []
-        },
-        "System.String Prestamos.Api.Domain.Entities.BimestresEntity::get_Mes()": {
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Domain\\Entities\\PrestamoEntity.cs": {
+      "Prestamos.Domain.Entities.PrestamoEntity": {
+        "System.Int32 Prestamos.Domain.Entities.PrestamoEntity::get_Id()": {
           "Lines": {
             "6": 0
           },
           "Branches": []
         },
-        "System.Int32 Prestamos.Api.Domain.Entities.BimestresEntity::get_Estatus()": {
+        "System.Int32 Prestamos.Domain.Entities.PrestamoEntity::get_UsuarioId()": {
           "Lines": {
             "7": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Prestamos.Domain.Entities.PrestamoEntity::get_MontoSolicitado()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Prestamos.Domain.Entities.PrestamoEntity::get_MontoAprobado()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "Prestamos.Domain.Enums.EstadoPrestamo Prestamos.Domain.Entities.PrestamoEntity::get_Estado()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Prestamos.Domain.Entities.PrestamoEntity::get_FechaSolicitud()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Domain\\Entities\\UsuarioEntity.cs": {
+      "Prestamos.Domain.Entities.UsuarioEntity": {
+        "System.Int32 Prestamos.Domain.Entities.UsuarioEntity::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Prestamos.Domain.Entities.UsuarioEntity::get_NombreCompleto()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Prestamos.Domain.Entities.UsuarioEntity::get_Correo()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Prestamos.Domain.Entities.UsuarioEntity::get_PasswordHash()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Prestamos.Domain.Enums.TipoUsuario Prestamos.Domain.Entities.UsuarioEntity::get_Tipo()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Prestamos.Domain.Enums.EstadoUsuario Prestamos.Domain.Entities.UsuarioEntity::get_Estado()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Domain\\Entities\\BimestresEntity.cs": {
+      "Prestamos.Api.Domain.Entities.BimestresEntity": {
+        "System.Int32 Prestamos.Api.Domain.Entities.BimestresEntity::get_IdBimestre()": {
+          "Lines": {
+            "5": 16
+          },
+          "Branches": []
+        },
+        "System.String Prestamos.Api.Domain.Entities.BimestresEntity::get_Mes()": {
+          "Lines": {
+            "6": 32
+          },
+          "Branches": []
+        },
+        "System.Int32 Prestamos.Api.Domain.Entities.BimestresEntity::get_Estatus()": {
+          "Lines": {
+            "7": 3
           },
           "Branches": []
         }
@@ -1631,43 +475,43 @@
       "Prestamos.Api.Domain.Entities.PrestamoAnual": {
         "System.Int32 Prestamos.Api.Domain.Entities.PrestamoAnual::get_IdUsuario()": {
           "Lines": {
-            "12": 0
+            "12": 16
           },
           "Branches": []
         },
         "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_febrero()": {
           "Lines": {
-            "13": 0
+            "13": 25
           },
           "Branches": []
         },
         "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_abril()": {
           "Lines": {
-            "14": 0
+            "14": 10
           },
           "Branches": []
         },
         "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_junio()": {
           "Lines": {
-            "15": 0
+            "15": 9
           },
           "Branches": []
         },
         "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_agosto()": {
           "Lines": {
-            "16": 0
+            "16": 9
           },
           "Branches": []
         },
         "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_octubre()": {
           "Lines": {
-            "17": 0
+            "17": 9
           },
           "Branches": []
         },
         "System.Boolean Prestamos.Api.Domain.Entities.PrestamoAnual::get_diciembre()": {
           "Lines": {
-            "18": 0
+            "18": 25
           },
           "Branches": []
         }
@@ -1951,5 +795,1288 @@
       }
     }
   },
-  "Prestamos.Api.Presenters.dll": {}
+  "Prestamos.Api.Presenters.dll": {
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Presenters\\CasosUso\\JwtUseCases.cs": {
+      "Prestamos.Api.Presenters.CasosUso.TokenGenerado": {
+        "System.String Prestamos.Api.Presenters.CasosUso.TokenGenerado::get_AccessToken()": {
+          "Lines": {
+            "9": 10
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Presenters.CasosUso.JwtUseCases": {
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.JwtUseCases::ValidarCliente(System.String,System.String)": {
+          "Lines": {
+            "18": 5,
+            "19": 5,
+            "20": 5,
+            "21": 5
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 18,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 4
+            },
+            {
+              "Line": 18,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 34,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 4
+            },
+            {
+              "Line": 18,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 18,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 67,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 18,
+              "Offset": 6,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 18,
+              "Offset": 14,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 18,
+              "Offset": 47,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            }
+          ]
+        },
+        "Prestamos.Api.Presenters.CasosUso.TokenGenerado Prestamos.Api.Presenters.CasosUso.JwtUseCases::GenerarToken(System.String)": {
+          "Lines": {
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "34": 3
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 18,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 26,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 50,
+              "EndOffset": 64,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 27,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 82,
+              "EndOffset": 96,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Security.Claims.ClaimsPrincipal Prestamos.Api.Presenters.CasosUso.JwtUseCases::ValidarToken(System.String)": {
+          "Lines": {
+            "37": 4,
+            "38": 5,
+            "39": 3,
+            "40": 3,
+            "42": 3,
+            "43": 3,
+            "44": 3,
+            "45": 3,
+            "46": 3,
+            "47": 3,
+            "48": 3,
+            "49": 3,
+            "50": 3,
+            "51": 3,
+            "52": 3,
+            "53": 3,
+            "55": 3,
+            "56": 3,
+            "57": 4
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 9,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 40,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 43,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.JwtUseCases::AutorizarRol(System.Security.Claims.ClaimsPrincipal,System.String)": {
+          "Lines": {
+            "60": 3
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 1,
+              "EndOffset": 3,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 10,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 1,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 42,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Prestamos.Api.Presenters.CasosUso.JwtUseCases::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "12": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\heidr\\PrestamosBimestrales\\Prestamos.Api.Presenters\\CasosUso\\PrestamosUseCases.cs": {
+      "Prestamos.Api.Presenters.CasosUso.UsuarioInfo": {
+        "System.Int32 Prestamos.Api.Presenters.CasosUso.UsuarioInfo::get_Id()": {
+          "Lines": {
+            "5": 49
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Presenters.CasosUso.BimestreInfo": {
+        "System.Int32 Prestamos.Api.Presenters.CasosUso.BimestreInfo::get_Id()": {
+          "Lines": {
+            "6": 22
+          },
+          "Branches": []
+        }
+      },
+      "Prestamos.Api.Presenters.CasosUso.PrestamosUseCases": {
+        "Prestamos.Api.Presenters.CasosUso.UsuarioInfo Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::IdentificarUsuario(System.Collections.Generic.IDictionary`2<System.String,System.Object>)": {
+          "Lines": {
+            "17": 8,
+            "18": 8,
+            "19": 3,
+            "21": 5,
+            "22": 5,
+            "23": 5,
+            "24": 5,
+            "25": 5,
+            "26": 8
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 18,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 7
+            },
+            {
+              "Line": 18,
+              "Offset": 2,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 18,
+              "Offset": 17,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 18,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 18,
+              "Offset": 40,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Decimal Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ObtenerSueldoEmpleado(Prestamos.Api.Presenters.CasosUso.UsuarioInfo)": {
+          "Lines": {
+            "29": 2
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 1,
+              "EndOffset": 3,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 1,
+              "EndOffset": 6,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 29,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 17,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Decimal Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ObtenerSueldoEstudiante(Prestamos.Api.Presenters.CasosUso.UsuarioInfo)": {
+          "Lines": {
+            "32": 1
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 1,
+              "EndOffset": 3,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 1,
+              "EndOffset": 6,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 32,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 17,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Collections.Generic.IReadOnlyList`1<Prestamos.Api.Presenters.CasosUso.BimestreInfo> Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ConsultarBimestres(System.Collections.Generic.IEnumerable`1<Prestamos.Api.Domain.Entities.BimestresEntity>,System.DateOnly)": {
+          "Lines": {
+            "35": 16,
+            "36": 16
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ValidarSeleccion(Prestamos.Api.Domain.Entities.PrestamoAnual)": {
+          "Lines": {
+            "38": 6,
+            "39": 23
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 38,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 38,
+              "Offset": 43,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 38,
+              "Offset": 19,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Collections.Generic.IReadOnlyList`1<Prestamos.Api.Domain.Entities.PrestamoAnual> Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::GuardarSeleccion(System.Collections.Generic.IEnumerable`1<Prestamos.Api.Domain.Entities.PrestamoAnual>)": {
+          "Lines": {
+            "42": 2
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 1,
+              "EndOffset": 3,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 1,
+              "EndOffset": 6,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 19,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Collections.Generic.IReadOnlyList`1<Prestamos.Api.Presenters.CasosUso.BimestreInfo> Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ConsultarBimestresPorUsuario(System.Collections.Generic.IEnumerable`1<Prestamos.Api.Domain.Entities.BimestresEntity>,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String,System.DateOnly)": {
+          "Lines": {
+            "46": 2,
+            "47": 5,
+            "48": 5,
+            "49": 5,
+            "50": 5,
+            "51": 5,
+            "52": 2,
+            "53": 2
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 47,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 47,
+              "Offset": 13,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 47,
+              "Offset": 39,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Collections.Generic.IReadOnlyList`1<Prestamos.Api.Presenters.CasosUso.BimestreInfo> Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::OcultarDiciembre(System.Collections.Generic.IEnumerable`1<Prestamos.Api.Presenters.CasosUso.BimestreInfo>,System.String)": {
+          "Lines": {
+            "56": 4,
+            "57": 5,
+            "58": 4
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 56,
+              "Offset": 6,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::BloquearBimestreMenorFechaActual(System.String,System.DateOnly)": {
+          "Lines": {
+            "60": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IReadOnlyList`1<Prestamos.Api.Domain.Entities.PrestamoAnual> Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ResetearBimestresAlFinalizarAnio(System.Collections.Generic.IEnumerable`1<Prestamos.Api.Domain.Entities.PrestamoAnual>)": {
+          "Lines": {
+            "63": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ValidarSeleccionBimestreBloqueado(Prestamos.Api.Domain.Entities.PrestamoAnual,System.DateOnly)": {
+          "Lines": {
+            "66": 20,
+            "67": 4
+          },
+          "Branches": [
+            {
+              "Line": 66,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 66,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 66,
+              "Offset": 55,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 66,
+              "Offset": 42,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 15
+            }
+          ]
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ActualizarEstadoBimestrePorUsuario(System.Int32,System.DateOnly)": {
+          "Lines": {
+            "69": 2
+          },
+          "Branches": []
+        },
+        "System.Decimal Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::CalcularPrestamoPorSueldo(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,Prestamos.Api.Domain.Entities.PrestamoAnual)": {
+          "Lines": {
+            "72": 4,
+            "73": 5,
+            "74": 18,
+            "75": 3,
+            "76": 4
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 30,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Decimal Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::CalcularPrestamoPorAguinaldo(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,Prestamos.Api.Domain.Entities.PrestamoAnual)": {
+          "Lines": {
+            "79": 1
+          },
+          "Branches": [
+            {
+              "Line": 79,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 79,
+              "Offset": 11,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 19,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Decimal Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::CalcularPrestamoPorEstudiante(Prestamos.Api.Domain.Entities.PrestamoAnual)": {
+          "Lines": {
+            "82": 2
+          },
+          "Branches": [
+            {
+              "Line": 82,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 35,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ValidarMontoSolicitadoPorEstudiante(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,System.Decimal)": {
+          "Lines": {
+            "85": 3
+          },
+          "Branches": [
+            {
+              "Line": 85,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 85,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 85,
+              "Offset": 24,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 11,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ValidarSolicitudDuplicada(System.Boolean,Prestamos.Api.Domain.Entities.PrestamoAnual)": {
+          "Lines": {
+            "88": 2
+          },
+          "Branches": [
+            {
+              "Line": 88,
+              "Offset": 1,
+              "EndOffset": 3,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 88,
+              "Offset": 1,
+              "EndOffset": 12,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.String Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::NotificarMontoRecibirPrestamo(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,System.Decimal)": {
+          "Lines": {
+            "91": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::DeshabilitarSolicitudDiciembre(System.String)": {
+          "Lines": {
+            "93": 4
+          },
+          "Branches": []
+        },
+        "Prestamos.Api.Presenters.CasosUso.UsuarioInfo Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ConsultarInformacionUsuario(System.Collections.Generic.IDictionary`2<System.String,System.Object>)": {
+          "Lines": {
+            "95": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ActualizarMontoPrestamo(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,Prestamos.Api.Domain.Entities.PrestamoAnual)": {
+          "Lines": {
+            "98": 3,
+            "99": 3,
+            "100": 3
+          },
+          "Branches": [
+            {
+              "Line": 98,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 98,
+              "Offset": 11,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Decimal Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::CalcularMontoAdicional32(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,Prestamos.Api.Domain.Entities.PrestamoAnual)": {
+          "Lines": {
+            "103": 3
+          },
+          "Branches": [
+            {
+              "Line": 103,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 103,
+              "Offset": 11,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 19,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::EsTrabajador(System.String)": {
+          "Lines": {
+            "106": 10,
+            "107": 10,
+            "108": 10
+          },
+          "Branches": [
+            {
+              "Line": 106,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 106,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 106,
+              "Offset": 12,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 106,
+              "Offset": 26,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 8
+            }
+          ]
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::EsEstudiante(System.String)": {
+          "Lines": {
+            "111": 15,
+            "112": 15
+          },
+          "Branches": [
+            {
+              "Line": 111,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 111,
+              "Offset": 12,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            }
+          ]
+        },
+        "System.Boolean Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::Seleccionado(Prestamos.Api.Domain.Entities.PrestamoAnual,System.String)": {
+          "Lines": {
+            "114": 49,
+            "115": 49,
+            "116": 31,
+            "117": 18,
+            "118": 49
+          },
+          "Branches": [
+            {
+              "Line": 114,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 36
+            },
+            {
+              "Line": 114,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 27
+            },
+            {
+              "Line": 114,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 18
+            },
+            {
+              "Line": 114,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 9
+            },
+            {
+              "Line": 114,
+              "Offset": 15,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 13
+            },
+            {
+              "Line": 114,
+              "Offset": 28,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 9
+            },
+            {
+              "Line": 114,
+              "Offset": 41,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 9
+            },
+            {
+              "Line": 114,
+              "Offset": 54,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 9
+            }
+          ]
+        },
+        "System.Int32 Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::ObtenerMes(System.String)": {
+          "Lines": {
+            "120": 12,
+            "121": 12,
+            "122": 12,
+            "123": 12
+          },
+          "Branches": [
+            {
+              "Line": 120,
+              "Offset": 1,
+              "EndOffset": 3,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 1,
+              "EndOffset": 6,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 12
+            },
+            {
+              "Line": 120,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 5
+            },
+            {
+              "Line": 120,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 120,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            },
+            {
+              "Line": 120,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 4
+            },
+            {
+              "Line": 120,
+              "Offset": 80,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 4
+            },
+            {
+              "Line": 120,
+              "Offset": 28,
+              "EndOffset": 97,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 7
+            },
+            {
+              "Line": 120,
+              "Offset": 41,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 120,
+              "Offset": 54,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 67,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 80,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::GetString(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String)": {
+          "Lines": {
+            "125": 10
+          },
+          "Branches": [
+            {
+              "Line": 125,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 125,
+              "Offset": 9,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            },
+            {
+              "Line": 125,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 19,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 9
+            },
+            {
+              "Line": 125,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 31,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 9
+            }
+          ]
+        },
+        "System.Int32 Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::GetInt(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String)": {
+          "Lines": {
+            "126": 5
+          },
+          "Branches": [
+            {
+              "Line": 126,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 126,
+              "Offset": 9,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 126,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 12,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Decimal Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::GetDecimal(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String)": {
+          "Lines": {
+            "127": 5
+          },
+          "Branches": [
+            {
+              "Line": 127,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 127,
+              "Offset": 9,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 127,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 12,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void Prestamos.Api.Presenters.CasosUso.PrestamosUseCases::.cctor()": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
 }

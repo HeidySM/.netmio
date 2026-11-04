@@ -290,26 +290,58 @@ var assemblies = [
   {
     "name": "Prestamos.Api",
     "classes": [
-      { "name": "Prestamos.Api.Controllers.AuthController", "rp": "Prestamos.Api_AuthController.html", "cl": 25, "ucl": 0, "cal": 25, "tl": 50, "cb": 14, "tb": 14, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Prestamos.Api.Controllers.PrestamosController", "rp": "Prestamos.Api_PrestamosController.html", "cl": 0, "ucl": 105, "cal": 105, "tl": 159, "cb": 0, "tb": 150, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Prestamos.Api.Controllers.WeatherForecastController", "rp": "Prestamos.Api_WeatherForecastController.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Prestamos.Api.WeatherForecast", "rp": "Prestamos.Api_WeatherForecast.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Program", "rp": "Prestamos.Api_Program.html", "cl": 27, "ucl": 0, "cal": 27, "tl": 41, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Controllers.AuthController", "rp": "Prestamos.Api_AuthController.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 26, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Controllers.PrestamosController", "rp": "Prestamos.Api_PrestamosController.html", "cl": 63, "ucl": 0, "cal": 63, "tl": 101, "cb": 15, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Program", "rp": "Prestamos.Api_Program.html", "cl": 39, "ucl": 0, "cal": 39, "tl": 54, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "Prestamos.Api.Domain",
     "classes": [
-      { "name": "Prestamos.Api.Domain.Entities.BimestresEntity", "rp": "Prestamos.Api.Domain_BimestresEntity.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Prestamos.Api.Domain.Entities.PrestamoAnual", "rp": "Prestamos.Api.Domain_PrestamoAnual.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Domain.Entities.BimestresEntity", "rp": "Prestamos.Api.Domain_BimestresEntity.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Domain.Entities.PrestamoAnual", "rp": "Prestamos.Api.Domain_PrestamoAnual.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Domain.MesExtensions", "rp": "Prestamos.Api.Domain_MesExtensions.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 6, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Domain.Entities.PrestamoEntity", "rp": "Prestamos.Api.Domain_PrestamoEntity.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Domain.Entities.UsuarioEntity", "rp": "Prestamos.Api.Domain_UsuarioEntity.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "Prestamos.Api.Infraestructura",
     "classes": [
-      { "name": "Prestamos.Api.Infraestructura.BD.Context.Bimestres", "rp": "Prestamos.Api.Infraestructura_Bimestres.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 32, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Prestamos.Api.Infraestructura.BD.Context.PrestamosContext", "rp": "Prestamos.Api.Infraestructura_PrestamosContext.html", "cl": 0, "ucl": 24, "cal": 24, "tl": 43, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Prestamos.Api.Infraestructura.BD.Context.Repository", "rp": "Prestamos.Api.Infraestructura_Repository.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Prestamos.Api.Infraestructura.BD.Context.UsuariosRepository", "rp": "Prestamos.Api.Infraestructura_UsuariosRepository.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Prestamos.Api.Infraestructura.DatabaseConfig", "rp": "Prestamos.Api.Infraestructura_DatabaseConfig.html", "cl": 4, "ucl": 17, "cal": 21, "tl": 39, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Infraestructura.BD.Context.Bimestres", "rp": "Prestamos.Api.Infraestructura_Bimestres.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 32, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Infraestructura.BD.Context.PrestamosContext", "rp": "Prestamos.Api.Infraestructura_PrestamosContext.html", "cl": 24, "ucl": 0, "cal": 24, "tl": 43, "cb": 8, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Infraestructura.BD.Context.Repository", "rp": "Prestamos.Api.Infraestructura_Repository.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Infraestructura.BD.Context.UsuariosRepository", "rp": "Prestamos.Api.Infraestructura_UsuariosRepository.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Infraestructura.DatabaseConfig", "rp": "Prestamos.Api.Infraestructura_DatabaseConfig.html", "cl": 9, "ucl": 12, "cal": 21, "tl": 39, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+    ]},
+  {
+    "name": "Prestamos.Api.Presenters",
+    "classes": [
+      { "name": "Prestamos.Api.Presenters.CasosUso.ActualizarEstadoBimestreUseCase", "rp": "Prestamos.Api.Presenters_ActualizarEstadoBimestreUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ActualizarMontoPrestamoUseCase", "rp": "Prestamos.Api.Presenters_ActualizarMontoPrestamoUseCase.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 171, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.BimestreInfo", "rp": "Prestamos.Api.Presenters_BimestreInfo.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.BloquearBimestrePasadoUseCase", "rp": "Prestamos.Api.Presenters_BloquearBimestrePasadoUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.CalcularMontoAdicional32UseCase", "rp": "Prestamos.Api.Presenters_CalcularMontoAdicional32UseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.CalcularPrestamoEstudianteUseCase", "rp": "Prestamos.Api.Presenters_CalcularPrestamoEstudianteUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.CalcularPrestamoPorAguinaldoUseCase", "rp": "Prestamos.Api.Presenters_CalcularPrestamoPorAguinaldoUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.CalcularPrestamoPorSueldoUseCase", "rp": "Prestamos.Api.Presenters_CalcularPrestamoPorSueldoUseCase.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 171, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ConsultarBimestresPorUsuarioUseCase", "rp": "Prestamos.Api.Presenters_ConsultarBimestresPorUsuarioUseCase.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 171, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ConsultarBimestresUseCase", "rp": "Prestamos.Api.Presenters_ConsultarBimestresUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ConsultarInformacionUsuarioUseCase", "rp": "Prestamos.Api.Presenters_ConsultarInformacionUsuarioUseCase.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.DeshabilitarDiciembreUseCase", "rp": "Prestamos.Api.Presenters_DeshabilitarDiciembreUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.GuardarSeleccionUseCase", "rp": "Prestamos.Api.Presenters_GuardarSeleccionUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.IdentificarUsuarioUseCase", "rp": "Prestamos.Api.Presenters_IdentificarUsuarioUseCase.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 171, "cb": 18, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.JwtUseCases", "rp": "Prestamos.Api.Presenters_JwtUseCases.html", "cl": 36, "ucl": 0, "cal": 36, "tl": 61, "cb": 23, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.NotificarMontoUseCase", "rp": "Prestamos.Api.Presenters_NotificarMontoUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ObtenerSueldoEmpleadoUseCase", "rp": "Prestamos.Api.Presenters_ObtenerSueldoEmpleadoUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ObtenerSueldoEstudianteUseCase", "rp": "Prestamos.Api.Presenters_ObtenerSueldoEstudianteUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.OcultarDiciembreUseCase", "rp": "Prestamos.Api.Presenters_OcultarDiciembreUseCase.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 171, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ReglasPrestamo", "rp": "Prestamos.Api.Presenters_ReglasPrestamo.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 171, "cb": 17, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ResetearBimestresUseCase", "rp": "Prestamos.Api.Presenters_ResetearBimestresUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.TokenGenerado", "rp": "Prestamos.Api.Presenters_TokenGenerado.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 61, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.UsuarioInfo", "rp": "Prestamos.Api.Presenters_UsuarioInfo.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ValidarMontoEstudianteUseCase", "rp": "Prestamos.Api.Presenters_ValidarMontoEstudianteUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ValidarSeleccionBimestreBloqueadoUseCase", "rp": "Prestamos.Api.Presenters_ValidarSeleccionBimestreBloqueadoUseCase.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 171, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ValidarSeleccionUseCase", "rp": "Prestamos.Api.Presenters_ValidarSeleccionUseCase.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 171, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Prestamos.Api.Presenters.CasosUso.ValidarSolicitudDuplicadaUseCase", "rp": "Prestamos.Api.Presenters_ValidarSolicitudDuplicadaUseCase.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 171, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
@@ -318,35 +350,9 @@ var metrics = [{ "name": "Crap Score", "abbreviation": "crp", "explanationUrl": 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
-      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
-      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
 ];
 
 var riskHotspots = [
-  {
-    "assembly": "Prestamos.Api", "class": "Prestamos.Api.Controllers.PrestamosController", "reportPath": "Prestamos.Api_PrestamosController.html", "methodName": "SolicitarPrestamo()", "methodShortName": "SolicitarPrestamo()", "fileIndex": 0, "line": 53,
-    "metrics": [
-      { "value": 4692, "exceeded": true },
-      { "value": 68, "exceeded": true },
-    ]},
-  {
-    "assembly": "Prestamos.Api", "class": "Prestamos.Api.Controllers.PrestamosController", "reportPath": "Prestamos.Api_PrestamosController.html", "methodName": "ConsultarBimestresPorUsuario()", "methodShortName": "ConsultarBimestresPorUsuario()", "fileIndex": 0, "line": 109,
-    "metrics": [
-      { "value": 600, "exceeded": true },
-      { "value": 24, "exceeded": true },
-    ]},
-  {
-    "assembly": "Prestamos.Api", "class": "Prestamos.Api.Controllers.PrestamosController", "reportPath": "Prestamos.Api_PrestamosController.html", "methodName": "ConsultarBimestres()", "methodShortName": "ConsultarBimestres()", "fileIndex": 0, "line": 23,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Prestamos.Api.Infraestructura", "class": "Prestamos.Api.Infraestructura.BD.Context.PrestamosContext", "reportPath": "Prestamos.Api.Infraestructura_PrestamosContext.html", "methodName": "PostPrestamos()", "methodShortName": "PostPrestamos()", "fileIndex": 0, "line": 18,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
 ];
 
 var branchCoverageAvailable = true;

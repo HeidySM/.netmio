@@ -10,6 +10,7 @@ C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Infraestructura\obj\Debug\net1
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Infraestructura\obj\Debug\net10.0\Prestamos.Api.Infraestructura.AssemblyInfoInputs.cache
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Infraestructura\obj\Debug\net10.0\Prestamos.Api.Infraestructura.AssemblyInfo.cs
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Infraestructura\obj\Debug\net10.0\Prestamos.Api.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Infraestructura\obj\Debug\net10.0\Prestamos.Api.Infraestructura.sourcelink.json
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Infraestructura\obj\Debug\net10.0\Prestamo.69019FE2.Up2Date
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Infraestructura\obj\Debug\net10.0\Prestamos.Api.Infraestructura.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Infraestructura\obj\Debug\net10.0\refint\Prestamos.Api.Infraestructura.dll

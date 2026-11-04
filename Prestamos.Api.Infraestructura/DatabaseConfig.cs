@@ -15,7 +15,7 @@ public class DatabaseConfig
 
     private IDbConnection Conexion() => new SqlConnection(_connectionString);
 
-    public async Task<T?> GetSingleData<T>(string storeProcedure, DynamicParameters parameters)
+    public virtual async Task<T?> GetSingleData<T>(string storeProcedure, DynamicParameters parameters)
     {
         using (var conect = Conexion())
         {
@@ -26,7 +26,7 @@ public class DatabaseConfig
         }
     }
 
-    public async Task<IEnumerable<T>> GetData<T>(string storeProcedure, DynamicParameters? parameters = null)
+    public virtual async Task<IEnumerable<T>> GetData<T>(string storeProcedure, DynamicParameters? parameters = null)
     {
         using (var conect = Conexion())
         {

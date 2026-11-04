@@ -321,6 +321,7 @@ C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\refs\Sy
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\refs\System.Xml.XPath.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\refs\System.Xml.XPath.XDocument.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\refs\WindowsBase.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Castle.Core.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Dapper.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.Testing.dll
@@ -345,9 +346,12 @@ C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Microso
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Moq.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Newtonsoft.Json.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\System.Formats.Asn1.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\xunit.assert.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\xunit.core.dll
@@ -435,6 +439,7 @@ C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\runtime
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Prestamos.Api.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Prestamos.Api.Domain.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Prestamos.Api.Infraestructura.dll
@@ -449,14 +454,10 @@ C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestam
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestamos.Api.Test.AssemblyInfoInputs.cache
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestamos.Api.Test.AssemblyInfo.cs
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestamos.Api.Test.csproj.CoreCompileInputs.cache
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestamos.Api.Test.sourcelink.json
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestamo.7160BE95.Up2Date
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestamos.Api.Test.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\refint\Prestamos.Api.Test.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestamos.Api.Test.pdb
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\Prestamos.Api.Test.genruntimeconfig.cache
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\obj\Debug\net10.0\ref\Prestamos.Api.Test.dll
-C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Castle.Core.dll
-C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\Moq.dll
-C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\System.Formats.Asn1.dll
-C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Test\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll

@@ -1,6 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Prestamos.Api.Domain\Prestamos.Api.Domain.csproj" />
   </ItemGroup>
 

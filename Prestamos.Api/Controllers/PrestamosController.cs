@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Prestamos.Api.Presenters;
+using Prestamos.Api.Domain;
 using Prestamos.Api.Domain.Entities;
-using System.Dynamic;
+using Prestamos.Api.Presenters;
+using Prestamos.Api.Presenters.CasosUso;
 
 namespace Prestamos.Api.Controllers;
 
@@ -12,148 +13,89 @@ namespace Prestamos.Api.Controllers;
 public class PrestamosController : ControllerBase
 {
     private readonly IRepository _repository;
+    private readonly ConsultarBimestresUseCase _consultar;
+    private readonly ValidarSeleccionUseCase _validarSeleccion;
+    private readonly ValidarSeleccionBimestreBloqueadoUseCase _validarBloqueado;
+    private readonly IdentificarUsuarioUseCase _identificar;
+    private readonly DeshabilitarDiciembreUseCase _deshabilitarDiciembre;
+    private readonly ActualizarMontoPrestamoUseCase _actualizarMonto;
+    private readonly ConsultarInformacionUsuarioUseCase _consultarUsuario;
+    private readonly ConsultarBimestresPorUsuarioUseCase _consultarUsuarioBimestres;
 
-    public PrestamosController(IRepository repository)
+    public PrestamosController(IRepository repository, ConsultarBimestresUseCase consultar,
+        ValidarSeleccionUseCase validarSeleccion, ValidarSeleccionBimestreBloqueadoUseCase validarBloqueado,
+        IdentificarUsuarioUseCase identificar, DeshabilitarDiciembreUseCase deshabilitarDiciembre,
+        ActualizarMontoPrestamoUseCase actualizarMonto, ConsultarInformacionUsuarioUseCase consultarUsuario,
+        ConsultarBimestresPorUsuarioUseCase consultarUsuarioBimestres)
     {
         _repository = repository;
+        _consultar = consultar;
+        _validarSeleccion = validarSeleccion;
+        _validarBloqueado = validarBloqueado;
+        _identificar = identificar;
+        _deshabilitarDiciembre = deshabilitarDiciembre;
+        _actualizarMonto = actualizarMonto;
+        _consultarUsuario = consultarUsuario;
+        _consultarUsuarioBimestres = consultarUsuarioBimestres;
     }
 
     [HttpGet("bimestres")]
     public async Task<IActionResult> ConsultarBimestres()
     {
-        // Se reemplaza _bimestresRepository por _repository.ibimestre
-        var listaBimestres = await _repository.ibimestre.Get();
-        var mesActual = DateTime.Now.Month;
-
-        var bimestresProcesados = listaBimestres.Select(b => 
-        {
-            dynamic obj = new ExpandoObject();
-            obj.idBimestre = b.IdBimestre;
-            obj.mes = b.Mes;
-            obj.estatus = b.Estatus;
-            
-            int mesNumerico = b.Mes.ToLower() switch {
-                "febrero" => 2, "abril" => 4, "junio" => 6,
-                "agosto" => 8, "octubre" => 10, "diciembre" => 12, _ => 0
-            };
-            
-            obj.bloqueado = mesNumerico < mesActual;
-            return obj;
-        });
-
-        dynamic response = new ExpandoObject();
-        response.codigo = 200;
-        response.mensaje = "Consulta exitosa";
-        response.data = bimestresProcesados; 
-        return Ok(response);
+        var rows = await _repository.ibimestre.Get();
+        var result = _consultar.Execute(rows, DateOnly.FromDateTime(DateTime.Now))
+            .Select((b, i) => new { idBimestre = b.Id, mes = b.Mes, estatus = rows[i].Estatus, bloqueado = b.Bloqueado });
+        return Ok(new { type = TipoRecurso.Bimestres, codigo = (int)StatusHttp.ok, mensaje = "Consulta exitosa", data = result });
     }
 
     [HttpPost("solicitar")]
-    public async Task<IActionResult> SolicitarPrestamo([FromBody] List<PrestamoAnual> solicitudes)
+    public async Task<IActionResult> SolicitarPrestamo([FromBody] List<PrestamoAnual>? solicitudes)
     {
-        if (solicitudes == null || !solicitudes.Any())
-            return BadRequest(new { codigo = 400, mensaje = "La solicitud no puede estar vacía" });
+        if (solicitudes is null || solicitudes.Count == 0)
+            return BadRequest(new { type = TipoRecurso.Validacion, codigo = (int)StatusHttp.badRequest, mensaje = "La solicitud no puede estar vacía" });
 
-        var peticion = solicitudes.First();
-        var mesActual = DateTime.Now.Month;
+        var request = solicitudes[0];
+        if (!_validarSeleccion.Execute(request))
+            return BadRequest(new { type = TipoRecurso.Validacion, codigo = (int)StatusHttp.badRequest, mensaje = "Selecciona al menos un bimestre." });
+        if (_validarBloqueado.Execute(request, DateOnly.FromDateTime(DateTime.Now)))
+            return BadRequest(new { type = TipoRecurso.Validacion, codigo = (int)StatusHttp.badRequest, mensaje = "No puedes solicitar un préstamo para un bimestre que ya transcurrió." });
 
-        if ((peticion.febrero && 2 < mesActual) || (peticion.abril && 4 < mesActual) ||
-            (peticion.junio && 6 < mesActual) || (peticion.agosto && 8 < mesActual) ||
-            (peticion.octubre && 10 < mesActual))
-        {
-            return BadRequest(new { codigo = 400, mensaje = "No puedes solicitar un préstamo para un bimestre que ya transcurrió." });
-        }
+        var userData = await _repository.iusuario.ConsultarInformacionUsuario(request.IdUsuario) as IDictionary<string, object>;
+        var user = _identificar.Execute(userData);
+        if (user is null)
+            return NotFound(new { type = TipoRecurso.Usuarios, codigo = (int)StatusHttp.notFound, mensaje = "Usuario no encontrado" });
+        if (_deshabilitarDiciembre.Execute(user.Tipo) && request.diciembre)
+            return BadRequest(new { type = TipoRecurso.Validacion, codigo = (int)StatusHttp.badRequest, mensaje = "Los alumnos no pueden solicitar préstamo en diciembre." });
 
-        // Se reemplaza _usuariosRepository por _repository.iusuario
-        var resultadoUsuario = await _repository.iusuario.ConsultarInformacionUsuario(peticion.IdUsuario);
-        var usuarioDict = resultadoUsuario as IDictionary<string, object>;
-        
-        if (usuarioDict == null || !usuarioDict.ContainsKey("codigo") || Convert.ToInt32(usuarioDict["codigo"]) == 404) 
-            return NotFound(new { codigo = 404, mensaje = "Usuario no encontrado" });
-
-        string tipoUsuario = usuarioDict["tipoUsuario"]?.ToString() ?? "";
-        decimal sueldoBase = usuarioDict["sueldoBase"] != null ? Convert.ToDecimal(usuarioDict["sueldoBase"]) : 0;
-        
-        if (tipoUsuario == "Alumno" && peticion.diciembre)
-            return BadRequest(new { codigo = 400, mensaje = "Los alumnos no pueden solicitar préstamo en diciembre." });
-
-        // Se reemplaza _context por _repository.iprestamos
-        var mensajeSql = await _repository.iprestamos.PostPrestamos(solicitudes);
-
-        decimal montoTotal = 0;
-        int bimestresNormales = (peticion.febrero ? 1 : 0) + (peticion.abril ? 1 : 0) + 
-                                (peticion.junio ? 1 : 0) + (peticion.agosto ? 1 : 0) + (peticion.octubre ? 1 : 0);
-
-        if (tipoUsuario == "Alumno")
-        {
-            montoTotal = bimestresNormales > 0 ? 3500.00m : 0; 
-        }
-        else if (tipoUsuario == "Trabajador")
-        {
-            montoTotal = bimestresNormales * (sueldoBase * 0.16m); 
-            
-            if (peticion.diciembre)
-                montoTotal += (sueldoBase * 0.32m); 
-        }
-
-        dynamic response = new ExpandoObject();
-        response.codigo = 200;
-        response.mensaje = mensajeSql;
-        response.montoAprobado = montoTotal;
-
-        return Ok(response);
+        var message = await _repository.iprestamos.PostPrestamos(solicitudes);
+        var amount = _actualizarMonto.Execute(user, request);
+        return Ok(new { type = TipoRecurso.Solicitud, codigo = (int)StatusHttp.ok, mensaje = message, montoAprobado = amount });
     }
 
     [HttpGet("usuario/{id}/bimestres")]
     public async Task<IActionResult> ConsultarBimestresPorUsuario(int id)
     {
-        // Se reemplaza _usuariosRepository por _repository.iusuario
-        var resultadoUsuario = await _repository.iusuario.ConsultarInformacionUsuario(id);
-        var usuarioDict = resultadoUsuario as IDictionary<string, object>;
+        var userData = await _repository.iusuario.ConsultarInformacionUsuario(id) as IDictionary<string, object>;
+        var user = _consultarUsuario.Execute(userData);
+        if (user is null)
+            return NotFound(new { type = TipoRecurso.Usuarios, codigo = (int)StatusHttp.notFound, mensaje = "Usuario no encontrado" });
 
-        if (usuarioDict == null || !usuarioDict.ContainsKey("codigo") || Convert.ToInt32(usuarioDict["codigo"]) == 404) 
+        var saved = await _repository.iprestamos.GetPrestamosUsuario(id) as IDictionary<string, object>;
+        var months = await _repository.ibimestre.Get();
+        var result = _consultarUsuarioBimestres.Execute(months, saved, user.Tipo,
+            DateOnly.FromDateTime(DateTime.Now)).Select(b => new
+            {
+                idBimestre = b.Id,
+                mes = b.Mes,
+                bloqueado = b.Bloqueado,
+                seleccionado = b.Seleccionado
+            }).ToArray();
+        return Ok(new
         {
-            return NotFound(new { codigo = 404, mensaje = "Usuario no encontrado" });
-        }
-
-        // Se reemplaza _context por _repository.iprestamos
-        var seleccionGuardada = await _repository.iprestamos.GetPrestamosUsuario(id) as IDictionary<string, object>;
-        
-        // Se reemplaza _bimestresRepository por _repository.ibimestre
-        var listaBimestres = await _repository.ibimestre.Get();
-        var mesActual = DateTime.Now.Month;
-
-        var bimestresProcesados = listaBimestres.Select(b => 
-        {
-            dynamic obj = new ExpandoObject();
-            obj.idBimestre = b.IdBimestre;
-            obj.mes = b.Mes;
-            
-            int mesNumerico = b.Mes.ToLower() switch {
-                "febrero" => 2, "abril" => 4, "junio" => 6,
-                "agosto" => 8, "octubre" => 10, "diciembre" => 12, _ => 0
-            };
-            
-            obj.bloqueado = mesNumerico < mesActual;
-            
-            obj.seleccionado = seleccionGuardada != null && 
-                               seleccionGuardada.ContainsKey(b.Mes.ToLower()) && 
-                               Convert.ToBoolean(seleccionGuardada[b.Mes.ToLower()]);
-
-            return obj;
-        }).ToList();
-
-        string tipoUsuarioStr = usuarioDict["tipoUsuario"]?.ToString() ?? "";
-        if (tipoUsuarioStr == "Alumno")
-        {
-            bimestresProcesados.RemoveAll(b => b.mes.ToLower() == "diciembre");
-        }
-
-        dynamic response = new ExpandoObject();
-        response.codigo = 200;
-        response.usuario = usuarioDict["nombre"]?.ToString();
-        response.data = bimestresProcesados; 
-
-        return Ok(response);
+            type = TipoRecurso.Bimestres,
+            codigo = (int)StatusHttp.ok,
+            usuario = user.Nombre,
+            data = result
+        });
     }
 }

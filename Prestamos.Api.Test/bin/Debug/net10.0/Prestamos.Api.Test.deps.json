@@ -43,6 +43,7 @@
           "Moq": "4.21.0",
           "Prestamos.Api": "1.0.0",
           "System.Security.Cryptography.Pkcs": "11.0.0-rc.3.26522.148",
+          "coverlet.collector": "10.1.0",
           "coverlet.msbuild": "10.1.0",
           "xunit": "2.9.3",
           "xunit.runner.visualstudio": "3.1.4",
@@ -1146,6 +1147,7 @@
       },
       "Prestamos.Api.Presenters/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.14",
           "Prestamos.Api.Domain": "1.0.0"
         },
         "runtime": {
@@ -2992,6 +2994,9 @@
         "compile": {
           "WindowsBase.dll": {}
         },
+        "compileOnly": true
+      },
+      "coverlet.collector/10.1.0": {
         "compileOnly": true
       },
       "coverlet.msbuild/10.1.0": {
@@ -5052,6 +5057,13 @@
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
+    },
+    "coverlet.collector/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SlYCIHnBYxINSUpR75SiM5JEmnx11pqT+Ac/C/fUqTTA0dLPl9eYzmFXKKuxmQhL3ZdTQl4PBD3YdAxAauaKLQ==",
+      "path": "coverlet.collector/10.1.0",
+      "hashPath": "coverlet.collector.10.1.0.nupkg.sha512"
     },
     "coverlet.msbuild/10.1.0": {
       "type": "package",

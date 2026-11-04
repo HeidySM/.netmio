@@ -313,6 +313,7 @@
       },
       "Prestamos.Api.Presenters/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.14",
           "Prestamos.Api.Domain": "1.0.0"
         },
         "runtime": {

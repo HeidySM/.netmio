@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9619" branch-rate="0.9027" version="1.9" timestamp="1793769040" lines-covered="303" lines-valid="315" branches-covered="130" branches-valid="144">
+  <sources>
+    <source>C:/Users/heidr/PrestamosBimestrales/</source>
+  </sources>
+  <packages>
+    <package name="Prestamos.Api" line-rate="1" branch-rate="0.9444" complexity="24">
+      <classes>
+        <class name="Program" filename="Prestamos.Api/Program.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Controllers.AuthController" filename="Prestamos.Api/Controllers/AuthController.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GenerateToken" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="19" hits="2" branch="False" />
+                <line number="20" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="21" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Configuration.IConfiguration)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+                <line number="15" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="2" branch="False" />
+            <line number="20" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="19" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="21" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+            <line number="15" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Controllers.PrestamosController" filename="Prestamos.Api/Controllers/PrestamosController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Prestamos.Api.Presenters.IRepository,Prestamos.Api.Presenters.CasosUso.ConsultarBimestresUseCase,Prestamos.Api.Presenters.CasosUso.ValidarSeleccionUseCase,Prestamos.Api.Presenters.CasosUso.ValidarSeleccionBimestreBloqueadoUseCase,Prestamos.Api.Presenters.CasosUso.IdentificarUsuarioUseCase,Prestamos.Api.Presenters.CasosUso.DeshabilitarDiciembreUseCase,Prestamos.Api.Presenters.CasosUso.ActualizarMontoPrestamoUseCase,Prestamos.Api.Presenters.CasosUso.ConsultarInformacionUsuarioUseCase,Prestamos.Api.Presenters.CasosUso.ConsultarBimestresPorUsuarioUseCase)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="9" branch="False" />
+                <line number="26" hits="9" branch="False" />
+                <line number="27" hits="9" branch="False" />
+                <line number="28" hits="9" branch="False" />
+                <line number="29" hits="9" branch="False" />
+                <line number="30" hits="9" branch="False" />
+                <line number="31" hits="9" branch="False" />
+                <line number="32" hits="9" branch="False" />
+                <line number="33" hits="9" branch="False" />
+                <line number="34" hits="9" branch="False" />
+                <line number="35" hits="9" branch="False" />
+                <line number="36" hits="9" branch="False" />
+                <line number="37" hits="9" branch="False" />
+                <line number="38" hits="9" branch="False" />
+                <line number="39" hits="9" branch="False" />
+                <line number="40" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="9" branch="False" />
+            <line number="26" hits="9" branch="False" />
+            <line number="27" hits="9" branch="False" />
+            <line number="28" hits="9" branch="False" />
+            <line number="29" hits="9" branch="False" />
+            <line number="30" hits="9" branch="False" />
+            <line number="31" hits="9" branch="False" />
+            <line number="32" hits="9" branch="False" />
+            <line number="33" hits="9" branch="False" />
+            <line number="34" hits="9" branch="False" />
+            <line number="35" hits="9" branch="False" />
+            <line number="36" hits="9" branch="False" />
+            <line number="37" hits="9" branch="False" />
+            <line number="38" hits="9" branch="False" />
+            <line number="39" hits="9" branch="False" />
+            <line number="40" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Controllers.PrestamosController/&lt;&gt;c" filename="Prestamos.Api/Controllers/PrestamosController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;ConsultarBimestresPorUsuario&gt;b__12_0" signature="(Prestamos.Api.Presenters.CasosUso.BimestreInfo)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="86" hits="2" branch="False" />
+                <line number="87" hits="2" branch="False" />
+                <line number="88" hits="2" branch="False" />
+                <line number="89" hits="2" branch="False" />
+                <line number="90" hits="2" branch="False" />
+                <line number="91" hits="2" branch="False" />
+                <line number="92" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="86" hits="2" branch="False" />
+            <line number="87" hits="2" branch="False" />
+            <line number="88" hits="2" branch="False" />
+            <line number="89" hits="2" branch="False" />
+            <line number="90" hits="2" branch="False" />
+            <line number="91" hits="2" branch="False" />
+            <line number="92" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Controllers.PrestamosController/&lt;&gt;c__DisplayClass10_0" filename="Prestamos.Api/Controllers/PrestamosController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;ConsultarBimestres&gt;b__0" signature="(Prestamos.Api.Presenters.CasosUso.BimestreInfo,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="47" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Controllers.PrestamosController/&lt;ConsultarBimestres&gt;d__10" filename="Prestamos.Api/Controllers/PrestamosController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Controllers.PrestamosController/&lt;ConsultarBimestresPorUsuario&gt;d__12" filename="Prestamos.Api/Controllers/PrestamosController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="77" hits="2" branch="False" />
+                <line number="78" hits="2" branch="False" />
+                <line number="79" hits="2" branch="False" />
+                <line number="80" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="227" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="81" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="77" hits="2" branch="False" />
+            <line number="78" hits="2" branch="False" />
+            <line number="79" hits="2" branch="False" />
+            <line number="80" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="227" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="81" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Controllers.PrestamosController/&lt;SolicitarPrestamo&gt;d__11" filename="Prestamos.Api/Controllers/PrestamosController.cs" line-rate="1" branch-rate="0.9285" complexity="14">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.9285" complexity="14">
+              <lines>
+                <line number="53" hits="6" branch="False" />
+                <line number="54" hits="6" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="35" type="jump" coverage="50%" />
+                    <condition number="56" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="55" hits="1" branch="False" />
+                <line number="57" hits="5" branch="False" />
+                <line number="58" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="140" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="215" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="61" hits="1" branch="False" />
+                <line number="63" hits="3" branch="False" />
+                <line number="64" hits="3" branch="False" />
+                <line number="65" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="450" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="516" type="jump" coverage="100%" />
+                    <condition number="536" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="68" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="53" hits="6" branch="False" />
+            <line number="54" hits="6" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="35" type="jump" coverage="50%" />
+                <condition number="56" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="55" hits="1" branch="False" />
+            <line number="57" hits="5" branch="False" />
+            <line number="58" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="140" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="215" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="61" hits="1" branch="False" />
+            <line number="63" hits="3" branch="False" />
+            <line number="64" hits="3" branch="False" />
+            <line number="65" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="450" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="516" type="jump" coverage="100%" />
+                <condition number="536" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="68" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="6" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Prestamos.Api.Domain" line-rate="1" branch-rate="1" complexity="23">
+      <classes>
+        <class name="Prestamos.Domain.Entities.PrestamoEntity" filename="Prestamos.Api.Domain/Entities/PrestamoEntity.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UsuarioId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MontoSolicitado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MontoAprobado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Estado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FechaSolicitud" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="2" branch="False" />
+            <line number="7" hits="2" branch="False" />
+            <line number="8" hits="2" branch="False" />
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Domain.Entities.UsuarioEntity" filename="Prestamos.Api.Domain/Entities/UsuarioEntity.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NombreCompleto" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Correo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PasswordHash" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Tipo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Estado" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="2" branch="False" />
+            <line number="8" hits="3" branch="False" />
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Domain.MesExtensions" filename="Prestamos.Api.Domain/Enums/MesExtensions.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Numero" signature="(Prestamos.Api.Domain.Mes)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="22" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="22" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Domain.Entities.BimestresEntity" filename="Prestamos.Api.Domain/Entities/BimestresEntity.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_IdBimestre" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Mes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="44" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Estatus" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="22" branch="False" />
+            <line number="6" hits="44" branch="False" />
+            <line number="7" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Domain.Entities.PrestamoAnual" filename="Prestamos.Api.Domain/Entities/BimestresEntity.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_IdUsuario" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name="get_febrero" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="56" branch="False" />
+              </lines>
+            </method>
+            <method name="get_abril" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="31" branch="False" />
+              </lines>
+            </method>
+            <method name="get_junio" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name="get_agosto" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name="get_octubre" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="24" branch="False" />
+              </lines>
+            </method>
+            <method name="get_diciembre" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="36" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="26" branch="False" />
+            <line number="13" hits="56" branch="False" />
+            <line number="14" hits="31" branch="False" />
+            <line number="15" hits="28" branch="False" />
+            <line number="16" hits="26" branch="False" />
+            <line number="17" hits="24" branch="False" />
+            <line number="18" hits="36" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Prestamos.Api.Infraestructura" line-rate="0.8481000000000001" branch-rate="1" complexity="24">
+      <classes>
+        <class name="Prestamos.Api.Infraestructura.DatabaseConfig" filename="Prestamos.Api.Infraestructura/DatabaseConfig.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Conexion" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="6" branch="False" />
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="2" branch="False" />
+            <line number="11" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.DatabaseConfig/&lt;GetData&gt;d__4`1" filename="Prestamos.Api.Infraestructura/DatabaseConfig.cs" line-rate="0.25" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.25" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.DatabaseConfig/&lt;GetSingleData&gt;d__3`1" filename="Prestamos.Api.Infraestructura/DatabaseConfig.cs" line-rate="0.25" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.25" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.Bimestres" filename="Prestamos.Api.Infraestructura/BD/Context/Bimestres.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Prestamos.Api.Infraestructura.DatabaseConfig)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.Bimestres/&lt;&gt;c__DisplayClass2_0" filename="Prestamos.Api.Infraestructura/BD/Context/Bimestres.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;Get&gt;b__0" signature="(Prestamos.Api.Domain.Entities.BimestresEntity)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.Bimestres/&lt;Get&gt;d__2" filename="Prestamos.Api.Infraestructura/BD/Context/Bimestres.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="17" hits="2" branch="False" />
+                <line number="18" hits="2" branch="False" />
+                <line number="20" hits="2" branch="False" />
+                <line number="21" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="25" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="278" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="2" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="20" hits="2" branch="False" />
+            <line number="21" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="25" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="278" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.PrestamosContext" filename="Prestamos.Api.Infraestructura/BD/Context/PrestamosContext.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Prestamos.Api.Infraestructura.DatabaseConfig)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+                <line number="13" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.PrestamosContext/&lt;GetPrestamosUsuario&gt;d__3" filename="Prestamos.Api.Infraestructura/BD/Context/PrestamosContext.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.PrestamosContext/&lt;PostPrestamos&gt;d__2" filename="Prestamos.Api.Infraestructura/BD/Context/PrestamosContext.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="18" hits="2" branch="False" />
+                <line number="19" hits="2" branch="False" />
+                <line number="20" hits="2" branch="False" />
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="24" hits="2" branch="False" />
+                <line number="25" hits="2" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="2" branch="True" condition-coverage="100% (8/8)">
+                  <conditions>
+                    <condition number="763" type="jump" coverage="100%" />
+                    <condition number="828" type="jump" coverage="100%" />
+                    <condition number="838" type="jump" coverage="100%" />
+                    <condition number="912" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="2" branch="False" />
+            <line number="19" hits="2" branch="False" />
+            <line number="20" hits="2" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="2" branch="True" condition-coverage="100% (8/8)">
+              <conditions>
+                <condition number="763" type="jump" coverage="100%" />
+                <condition number="828" type="jump" coverage="100%" />
+                <condition number="838" type="jump" coverage="100%" />
+                <condition number="912" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="34" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.Repository" filename="Prestamos.Api.Infraestructura/BD/Context/Repository.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_ibimestre" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_iusuario" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_iprestamos" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Prestamos.Api.Presenters.IBimestres,Prestamos.Api.Presenters.IUsuarios,Prestamos.Api.Presenters.IPrestamosContext)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="1" branch="False" />
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.UsuariosRepository" filename="Prestamos.Api.Infraestructura/BD/Context/UsuariosRepository.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Prestamos.Api.Infraestructura.DatabaseConfig)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Infraestructura.BD.Context.UsuariosRepository/&lt;ConsultarInformacionUsuario&gt;d__2" filename="Prestamos.Api.Infraestructura/BD/Context/UsuariosRepository.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Prestamos.Api.Presenters" line-rate="1" branch-rate="0.8879" complexity="133">
+      <classes>
+        <class name="Prestamos.Api.Presenters.CasosUso.TokenGenerado" filename="Prestamos.Api.Presenters/CasosUso/JwtUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_AccessToken" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="16" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="16" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.JwtUseCases" filename="Prestamos.Api.Presenters/CasosUso/JwtUseCases.cs" line-rate="1" branch-rate="0.8845999999999999" complexity="27">
+          <methods>
+            <method name="ValidarCliente" signature="(System.String,System.String)" line-rate="1" branch-rate="0.8" complexity="10">
+              <lines>
+                <line number="18" hits="9" branch="True" condition-coverage="80% (8/10)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="100%" />
+                    <condition number="14" type="jump" coverage="100%" />
+                    <condition number="34" type="jump" coverage="50%" />
+                    <condition number="47" type="jump" coverage="100%" />
+                    <condition number="67" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="9" branch="False" />
+                <line number="20" hits="9" branch="False" />
+                <line number="21" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="GenerarToken" signature="(System.String)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="24" hits="8" branch="False" />
+                <line number="25" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="18" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="50" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="82" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="5" branch="False" />
+                <line number="29" hits="5" branch="False" />
+                <line number="30" hits="5" branch="False" />
+                <line number="31" hits="5" branch="False" />
+                <line number="32" hits="5" branch="False" />
+                <line number="33" hits="5" branch="False" />
+                <line number="34" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="ValidarToken" signature="(System.String)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="37" hits="6" branch="False" />
+                <line number="38" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="4" branch="False" />
+                <line number="40" hits="4" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="4" branch="False" />
+                <line number="43" hits="4" branch="False" />
+                <line number="44" hits="4" branch="False" />
+                <line number="45" hits="4" branch="False" />
+                <line number="46" hits="4" branch="False" />
+                <line number="47" hits="4" branch="False" />
+                <line number="48" hits="4" branch="False" />
+                <line number="49" hits="4" branch="False" />
+                <line number="50" hits="4" branch="False" />
+                <line number="51" hits="4" branch="False" />
+                <line number="52" hits="4" branch="False" />
+                <line number="53" hits="4" branch="False" />
+                <line number="55" hits="3" branch="False" />
+                <line number="56" hits="3" branch="False" />
+                <line number="57" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="AutorizarRol" signature="(System.Security.Claims.ClaimsPrincipal,System.String)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="60" hits="6" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="10" type="jump" coverage="100%" />
+                    <condition number="42" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Configuration.IConfiguration)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="13" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="9" branch="True" condition-coverage="80% (8/10)">
+              <conditions>
+                <condition number="6" type="jump" coverage="100%" />
+                <condition number="14" type="jump" coverage="100%" />
+                <condition number="34" type="jump" coverage="50%" />
+                <condition number="47" type="jump" coverage="100%" />
+                <condition number="67" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="19" hits="9" branch="False" />
+            <line number="20" hits="9" branch="False" />
+            <line number="21" hits="9" branch="False" />
+            <line number="24" hits="8" branch="False" />
+            <line number="25" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="18" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="50" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="27" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="82" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="5" branch="False" />
+            <line number="29" hits="5" branch="False" />
+            <line number="30" hits="5" branch="False" />
+            <line number="31" hits="5" branch="False" />
+            <line number="32" hits="5" branch="False" />
+            <line number="33" hits="5" branch="False" />
+            <line number="34" hits="5" branch="False" />
+            <line number="37" hits="6" branch="False" />
+            <line number="38" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="39" hits="4" branch="False" />
+            <line number="40" hits="4" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="43" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="42" hits="4" branch="False" />
+            <line number="43" hits="4" branch="False" />
+            <line number="44" hits="4" branch="False" />
+            <line number="45" hits="4" branch="False" />
+            <line number="46" hits="4" branch="False" />
+            <line number="47" hits="4" branch="False" />
+            <line number="48" hits="4" branch="False" />
+            <line number="49" hits="4" branch="False" />
+            <line number="50" hits="4" branch="False" />
+            <line number="51" hits="4" branch="False" />
+            <line number="52" hits="4" branch="False" />
+            <line number="53" hits="4" branch="False" />
+            <line number="55" hits="3" branch="False" />
+            <line number="56" hits="3" branch="False" />
+            <line number="57" hits="6" branch="False" />
+            <line number="60" hits="6" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="10" type="jump" coverage="100%" />
+                <condition number="42" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="12" hits="13" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.UsuarioInfo" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="86" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="86" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.BimestreInfo" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="40" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="40" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ReglasPrestamo" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="0.7726999999999999" complexity="24">
+          <methods>
+            <method name="EsTrabajador" signature="(System.String)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="13" hits="22" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="15" type="jump" coverage="100%" />
+                    <condition number="29" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="22" branch="False" />
+                <line number="15" hits="22" branch="False" />
+                <line number="16" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="EsEstudiante" signature="(System.String)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="18" hits="26" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="15" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="26" branch="False" />
+                <line number="20" hits="26" branch="False" />
+              </lines>
+            </method>
+            <method name="Seleccionado" signature="(Prestamos.Api.Domain.Entities.PrestamoAnual,Prestamos.Api.Domain.Mes)" line-rate="1" branch-rate="0.5" complexity="10">
+              <lines>
+                <line number="22" hits="119" branch="True" condition-coverage="50% (5/10)">
+                  <conditions>
+                    <condition number="7" type="switch" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="119" branch="False" />
+                <line number="24" hits="81" branch="False" />
+                <line number="25" hits="38" branch="False" />
+                <line number="26" hits="119" branch="False" />
+              </lines>
+            </method>
+            <method name="TryMes" signature="(System.String,Prestamos.Api.Domain.Mes&amp;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="29" branch="False" />
+              </lines>
+            </method>
+            <method name="MesNumero" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="29" hits="17" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="22" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="15" type="jump" coverage="100%" />
+                <condition number="29" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="22" branch="False" />
+            <line number="15" hits="22" branch="False" />
+            <line number="16" hits="22" branch="False" />
+            <line number="18" hits="26" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="15" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="26" branch="False" />
+            <line number="20" hits="26" branch="False" />
+            <line number="22" hits="119" branch="True" condition-coverage="50% (5/10)">
+              <conditions>
+                <condition number="7" type="switch" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="23" hits="119" branch="False" />
+            <line number="24" hits="81" branch="False" />
+            <line number="25" hits="38" branch="False" />
+            <line number="26" hits="119" branch="False" />
+            <line number="28" hits="29" branch="False" />
+            <line number="29" hits="17" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="11" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.IdentificarUsuarioUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="0.9" complexity="20">
+          <methods>
+            <method name="Execute" signature="(System.Collections.Generic.IDictionary`2&lt;System.String,System.Object&gt;)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="35" hits="15" branch="False" />
+                <line number="36" hits="23" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                    <condition number="35" type="jump" coverage="100%" />
+                    <condition number="58" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="7" branch="False" />
+                <line number="41" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Execute&gt;g__Text|0_0" signature="(System.String,Prestamos.Api.Presenters.CasosUso.IdentificarUsuarioUseCase/&lt;&gt;c__DisplayClass0_0&amp;)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="37" hits="14" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="100%" />
+                    <condition number="24" type="jump" coverage="100%" />
+                    <condition number="36" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="&lt;Execute&gt;g__Number|0_1" signature="(System.String,Prestamos.Api.Presenters.CasosUso.IdentificarUsuarioUseCase/&lt;&gt;c__DisplayClass0_0&amp;)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="38" hits="7" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="100%" />
+                    <condition number="17" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="&lt;Execute&gt;g__Amount|0_2" signature="(System.String,Prestamos.Api.Presenters.CasosUso.IdentificarUsuarioUseCase/&lt;&gt;c__DisplayClass0_0&amp;)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="39" hits="7" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="100%" />
+                    <condition number="17" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="35" hits="15" branch="False" />
+            <line number="36" hits="23" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+                <condition number="35" type="jump" coverage="100%" />
+                <condition number="58" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="40" hits="7" branch="False" />
+            <line number="41" hits="15" branch="False" />
+            <line number="37" hits="14" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="14" type="jump" coverage="100%" />
+                <condition number="24" type="jump" coverage="100%" />
+                <condition number="36" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="38" hits="7" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="14" type="jump" coverage="100%" />
+                <condition number="17" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="39" hits="7" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="14" type="jump" coverage="100%" />
+                <condition number="17" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ConsultarInformacionUsuarioUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="(System.Collections.Generic.IDictionary`2&lt;System.String,System.Object&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Prestamos.Api.Presenters.CasosUso.IdentificarUsuarioUseCase)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="46" hits="4" branch="False" />
+            <line number="44" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ObtenerSueldoEmpleadoUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Presenters.CasosUso.UsuarioInfo)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="51" hits="6" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="17" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="51" hits="6" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="17" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ObtenerSueldoEstudianteUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Presenters.CasosUso.UsuarioInfo)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="56" hits="4" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="17" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="56" hits="4" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="17" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ConsultarBimestresUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Execute" signature="(System.Collections.Generic.IEnumerable`1&lt;Prestamos.Api.Domain.Entities.BimestresEntity&gt;,System.DateOnly)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="62" hits="21" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="62" hits="21" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ValidarSeleccionUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Domain.Entities.PrestamoAnual)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="67" hits="16" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="100%" />
+                    <condition number="43" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="68" hits="65" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="67" hits="16" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="19" type="jump" coverage="100%" />
+                <condition number="43" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="68" hits="65" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.GuardarSeleccionUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Execute" signature="(System.Collections.Generic.IEnumerable`1&lt;Prestamos.Api.Domain.Entities.PrestamoAnual&gt;)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="73" hits="3" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="19" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="73" hits="3" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="19" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.OcultarDiciembreUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="Execute" signature="(System.Collections.Generic.IEnumerable`1&lt;Prestamos.Api.Presenters.CasosUso.BimestreInfo&gt;,System.String)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="79" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="80" hits="8" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="81" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="79" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="80" hits="8" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="81" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ConsultarBimestresPorUsuarioUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="Execute" signature="(System.Collections.Generic.IEnumerable`1&lt;Prestamos.Api.Domain.Entities.BimestresEntity&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.Object&gt;,System.String,System.DateOnly)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="88" hits="3" branch="False" />
+                <line number="89" hits="7" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="100%" />
+                    <condition number="28" type="jump" coverage="100%" />
+                    <condition number="61" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="90" hits="7" branch="False" />
+                <line number="91" hits="7" branch="False" />
+                <line number="92" hits="7" branch="False" />
+                <line number="93" hits="7" branch="False" />
+                <line number="94" hits="7" branch="False" />
+                <line number="95" hits="3" branch="False" />
+                <line number="96" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Prestamos.Api.Presenters.CasosUso.ConsultarBimestresUseCase,Prestamos.Api.Presenters.CasosUso.OcultarDiciembreUseCase)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="84" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="88" hits="3" branch="False" />
+            <line number="89" hits="7" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="100%" />
+                <condition number="28" type="jump" coverage="100%" />
+                <condition number="61" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="90" hits="7" branch="False" />
+            <line number="91" hits="7" branch="False" />
+            <line number="92" hits="7" branch="False" />
+            <line number="93" hits="7" branch="False" />
+            <line number="94" hits="7" branch="False" />
+            <line number="95" hits="3" branch="False" />
+            <line number="96" hits="3" branch="False" />
+            <line number="84" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.BloquearBimestrePasadoUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Execute" signature="(System.String,System.DateOnly)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="101" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="101" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ResetearBimestresUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Execute" signature="(System.Collections.Generic.IEnumerable`1&lt;Prestamos.Api.Domain.Entities.PrestamoAnual&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="106" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="106" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ValidarSeleccionBimestreBloqueadoUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Domain.Entities.PrestamoAnual,System.DateOnly)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="112" hits="30" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="112" hits="30" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ActualizarEstadoBimestreUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Execute" signature="(System.Int32,System.DateOnly)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="117" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="117" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.CalcularPrestamoPorSueldoUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,Prestamos.Api.Domain.Entities.PrestamoAnual)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="122" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="123" hits="31" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="122" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="123" hits="31" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.CalcularPrestamoPorAguinaldoUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,Prestamos.Api.Domain.Entities.PrestamoAnual)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="129" hits="4" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="100%" />
+                    <condition number="19" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="129" hits="4" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="11" type="jump" coverage="100%" />
+                <condition number="19" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.CalcularPrestamoEstudianteUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Domain.Entities.PrestamoAnual)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="135" hits="30" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="35" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="135" hits="30" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="35" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ValidarMontoEstudianteUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,System.Decimal)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="141" hits="5" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="100%" />
+                    <condition number="24" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="141" hits="5" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="11" type="jump" coverage="100%" />
+                <condition number="24" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ValidarSolicitudDuplicadaUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Execute" signature="(System.Boolean,Prestamos.Api.Domain.Entities.PrestamoAnual)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="146" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Prestamos.Api.Presenters.CasosUso.ValidarSeleccionUseCase)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="144" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="146" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="144" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.NotificarMontoUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,System.Decimal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="151" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="151" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.DeshabilitarDiciembreUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Execute" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="156" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="156" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.CalcularMontoAdicional32UseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,Prestamos.Api.Domain.Entities.PrestamoAnual)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="162" hits="6" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="100%" />
+                    <condition number="19" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="162" hits="6" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="11" type="jump" coverage="100%" />
+                <condition number="19" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Prestamos.Api.Presenters.CasosUso.ActualizarMontoPrestamoUseCase" filename="Prestamos.Api.Presenters/CasosUso/PrestamosUseCases.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Execute" signature="(Prestamos.Api.Presenters.CasosUso.UsuarioInfo,Prestamos.Api.Domain.Entities.PrestamoAnual)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="168" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="169" hits="4" branch="False" />
+                <line number="170" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Prestamos.Api.Presenters.CasosUso.CalcularPrestamoEstudianteUseCase,Prestamos.Api.Presenters.CasosUso.CalcularPrestamoPorSueldoUseCase,Prestamos.Api.Presenters.CasosUso.CalcularMontoAdicional32UseCase)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="165" hits="11" branch="False" />
+                <line number="166" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="168" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="11" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="169" hits="4" branch="False" />
+            <line number="170" hits="4" branch="False" />
+            <line number="165" hits="11" branch="False" />
+            <line number="166" hits="11" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

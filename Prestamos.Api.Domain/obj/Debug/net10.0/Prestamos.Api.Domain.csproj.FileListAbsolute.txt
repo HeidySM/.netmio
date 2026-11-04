@@ -5,6 +5,7 @@ C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prest
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.AssemblyInfoInputs.cache
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.AssemblyInfo.cs
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.csproj.CoreCompileInputs.cache
+C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.sourcelink.json
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\refint\Prestamos.Api.Domain.dll
 C:\Users\heidr\PrestamosBimestrales\Prestamos.Api.Domain\obj\Debug\net10.0\Prestamos.Api.Domain.pdb
